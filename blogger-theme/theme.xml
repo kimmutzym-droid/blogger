@@ -1822,10 +1822,10 @@ img{max-width:100%;display:block;}
 
 <script>
 //<![CDATA[
-var HELPFUL_NAMESPACE = 'airanking-com-helpful';
+var HELPFUL_API_URL = 'https://script.google.com/macros/s/AKfycbyN6MjcyVZCZWH9yIYhxUbZHscdBfReO8vIFTT7AFsS1E51umt2vX7ecfnWnDl2LBIeEw/exec';
 function helpfulCountUrl(action, id, amount){
-  var base = 'https://api.countapi.xyz/' + action + '/' + HELPFUL_NAMESPACE + '/' + id;
-  return amount ? base + '?amount=' + amount : base;
+  var url = HELPFUL_API_URL + '?action=' + action + '&key=' + encodeURIComponent(id);
+  return amount ? url + '&amount=' + amount : url;
 }
 document.addEventListener('click', function(e){
   var helpfulBtn = e.target.closest('.helpful-btn');
