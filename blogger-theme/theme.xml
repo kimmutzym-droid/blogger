@@ -235,7 +235,22 @@ img{max-width:100%;display:block;}
       {"@type":"ListItem","position":2,"name":"Claude","url":"https://claude.ai"},
       {"@type":"ListItem","position":3,"name":"뤼튼(Wrtn)","url":"https://wrtn.ai"},
       {"@type":"ListItem","position":4,"name":"Gemini","url":"https://gemini.google.com"},
-      {"@type":"ListItem","position":5,"name":"Jasper","url":"https://www.jasper.ai"}
+      {"@type":"ListItem","position":5,"name":"Jasper","url":"https://www.jasper.ai"},
+      {"@type":"ListItem","position":6,"name":"Notion AI","url":"https://notion.so"},
+      {"@type":"ListItem","position":7,"name":"Grammarly","url":"https://grammarly.com"},
+      {"@type":"ListItem","position":8,"name":"Copy.ai","url":"https://copy.ai"},
+      {"@type":"ListItem","position":9,"name":"Writesonic","url":"https://writesonic.com"},
+      {"@type":"ListItem","position":10,"name":"QuillBot","url":"https://quillbot.com"},
+      {"@type":"ListItem","position":11,"name":"Sudowrite","url":"https://sudowrite.com"},
+      {"@type":"ListItem","position":12,"name":"Rytr","url":"https://rytr.me"},
+      {"@type":"ListItem","position":13,"name":"DeepSeek","url":"https://chat.deepseek.com"},
+      {"@type":"ListItem","position":14,"name":"Llama(Meta AI)","url":"https://meta.ai"},
+      {"@type":"ListItem","position":15,"name":"Mistral Le Chat","url":"https://chat.mistral.ai"},
+      {"@type":"ListItem","position":16,"name":"HyperWrite","url":"https://hyperwriteai.com"},
+      {"@type":"ListItem","position":17,"name":"Jenni AI","url":"https://jenni.ai"},
+      {"@type":"ListItem","position":18,"name":"Wordtune","url":"https://wordtune.com"},
+      {"@type":"ListItem","position":19,"name":"Simplified","url":"https://simplified.com"},
+      {"@type":"ListItem","position":20,"name":"Copysmith","url":"https://copysmith.com"}
     ]}
   </script>
   <ul class='rank-grid'>
@@ -274,6 +289,111 @@ img{max-width:100%;display:block;}
         <span class='rank-tags'><span>유료</span><span>마케팅 특화</span></span></span>
       <a class='rank-visit' href='https://www.jasper.ai' rel='nofollow noopener' target='_blank'>방문</a>
     </li>
+    <li class='rank-card' data-modal='detail-writing-6' data-name='Notion AI' data-tags='무료 플랜 노트정리 자동화'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-6' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>6</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=notion.so&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>N</span></span>
+      <span class='rank-info'><p class='rank-name'>Notion AI</p><p class='rank-summary'>문서 작성, 요약, 번역까지 노트 작업 안에서 처리하는 AI 기능</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.5</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>노트정리 자동화</span></span></span>
+      <a class='rank-visit' href='https://notion.so' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-7' data-name='Grammarly' data-tags='무료 플랜 문법 교정'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-7' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>7</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=grammarly.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>G</span></span>
+      <span class='rank-info'><p class='rank-name'>Grammarly</p><p class='rank-summary'>영문 문법과 어투, 표절을 검사해주는 글쓰기 보조 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★★</span><span class='score'>4.6</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>문법 교정</span></span></span>
+      <a class='rank-visit' href='https://grammarly.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-8' data-name='Copy.ai' data-tags='무료 플랜 마케팅 카피'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-8' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>8</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=copy.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Copy.ai</p><p class='rank-summary'>광고문구와 SNS 게시물을 빠르게 생성하는 카피라이팅 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>마케팅 카피</span></span></span>
+      <a class='rank-visit' href='https://copy.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-9' data-name='Writesonic' data-tags='무료 체험 SEO 콘텐츠'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-9' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>9</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=writesonic.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>W</span></span>
+      <span class='rank-info'><p class='rank-name'>Writesonic</p><p class='rank-summary'>SEO에 최적화된 블로그 글을 생성하는 AI 콘텐츠 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>SEO 콘텐츠</span></span></span>
+      <a class='rank-visit' href='https://writesonic.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-10' data-name='QuillBot' data-tags='무료 플랜 문장 재구성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-10' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>10</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=quillbot.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>Q</span></span>
+      <span class='rank-info'><p class='rank-name'>QuillBot</p><p class='rank-summary'>문장을 자연스럽게 바꿔주는 패러프레이징 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.4</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>문장 재구성</span></span></span>
+      <a class='rank-visit' href='https://quillbot.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-11' data-name='Sudowrite' data-tags='유료 소설 창작'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-11' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>11</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=sudowrite.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>S</span></span>
+      <span class='rank-info'><p class='rank-name'>Sudowrite</p><p class='rank-summary'>소설과 장편 창작에 특화된 작가용 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>유료</span><span>소설 창작</span></span></span>
+      <a class='rank-visit' href='https://sudowrite.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-12' data-name='Rytr' data-tags='무료 플랜 짧은 카피'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-12' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>12</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=rytr.me&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>R</span></span>
+      <span class='rank-info'><p class='rank-name'>Rytr</p><p class='rank-summary'>짧은 광고 문구를 빠르게 만들어주는 가벼운 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>짧은 카피</span></span></span>
+      <a class='rank-visit' href='https://rytr.me' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-13' data-name='DeepSeek' data-tags='무료 추론 특화'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-13' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>13</span><span class='rank-logo' style='background:#f5f3ff;color:#7c3aed'><img src='https://www.google.com/s2/favicons?domain=chat.deepseek.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>D</span></span>
+      <span class='rank-info'><p class='rank-name'>DeepSeek</p><p class='rank-summary'>복잡한 추론과 코드, 글쓰기에 강한 오픈소스 기반 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.4</span></span>
+        <span class='rank-tags'><span>무료</span><span>추론 특화</span></span></span>
+      <a class='rank-visit' href='https://chat.deepseek.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-14' data-name='Llama(Meta AI)' data-tags='무료 오픈소스'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-14' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>14</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=meta.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>L</span></span>
+      <span class='rank-info'><p class='rank-name'>Llama(Meta AI)</p><p class='rank-summary'>메타에서 만든 오픈소스 기반 대화·글쓰기 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료</span><span>오픈소스</span></span></span>
+      <a class='rank-visit' href='https://meta.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-15' data-name='Mistral Le Chat' data-tags='무료 유럽형 AI'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-15' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>15</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=chat.mistral.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>M</span></span>
+      <span class='rank-info'><p class='rank-name'>Mistral Le Chat</p><p class='rank-summary'>빠른 응답 속도가 강점인 유럽 기반 AI 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료</span><span>유럽형 AI</span></span></span>
+      <a class='rank-visit' href='https://chat.mistral.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-16' data-name='HyperWrite' data-tags='무료 체험 자동완성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-16' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>16</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=hyperwriteai.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>H</span></span>
+      <span class='rank-info'><p class='rank-name'>HyperWrite</p><p class='rank-summary'>다음 문장을 예측해 자동완성해주는 AI 라이팅 어시스턴트</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>자동완성</span></span></span>
+      <a class='rank-visit' href='https://hyperwriteai.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-17' data-name='Jenni AI' data-tags='무료 체험 논문 작성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-17' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>17</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=jenni.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>J</span></span>
+      <span class='rank-info'><p class='rank-name'>Jenni AI</p><p class='rank-summary'>학술 논문과 리포트 작성을 돕는 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>논문 작성</span></span></span>
+      <a class='rank-visit' href='https://jenni.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-18' data-name='Wordtune' data-tags='무료 플랜 톤 조정'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-18' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>18</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=wordtune.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>W</span></span>
+      <span class='rank-info'><p class='rank-name'>Wordtune</p><p class='rank-summary'>문장의 어투와 길이를 바꿔주는 리라이팅 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>톤 조정</span></span></span>
+      <a class='rank-visit' href='https://wordtune.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-19' data-name='Simplified' data-tags='무료 플랜 올인원'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-19' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>19</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=simplified.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>S</span></span>
+      <span class='rank-info'><p class='rank-name'>Simplified</p><p class='rank-summary'>글쓰기·디자인·소셜 게시까지 처리하는 올인원 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>올인원</span></span></span>
+      <a class='rank-visit' href='https://simplified.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-writing-20' data-name='Copysmith' data-tags='무료 체험 이커머스 카피'><button aria-label='즐겨찾기' class='fav-btn' data-fav='writing-20' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>20</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=copysmith.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Copysmith</p><p class='rank-summary'>이커머스 상품 설명을 대량 생성하는 AI 카피 툴</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>이커머스 카피</span></span></span>
+      <a class='rank-visit' href='https://copysmith.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
   </ul>
   <div class='ad-slot'><p class='ad-label'>광고</p>
     <ins class='adsbygoogle' style='display:block' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='fluid' data-ad-layout-key='-fb+5w+4e-db+86' data-ad-slot='0000000002'></ins>
@@ -284,6 +404,21 @@ img{max-width:100%;display:block;}
   <div id='detail-writing-3' class='rank-detail'><h3>뤼튼(Wrtn)</h3><p class='modal-meta'>무료</p><p>국내 스타트업이 만든 한국어 특화 AI로, 자기소개서·블로그·SNS 문구 등 한국 사용자에게 익숙한 템플릿이 풍부합니다.</p><a class='modal-link' href='https://wrtn.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-3'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-writing-4' class='rank-detail'><h3>Gemini</h3><p class='modal-meta'>무료 / Advanced 월 $19.99</p><p>구글 워크스페이스(문서, 지메일)와 매끄럽게 연동되어 평소 구글 서비스를 쓰는 사용자에게 편리합니다.</p><a class='modal-link' href='https://gemini.google.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-4'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-writing-5' class='rank-detail'><h3>Jasper</h3><p class='modal-meta'>월 $39부터</p><p>기업 마케팅팀을 위한 AI로, 브랜드 보이스를 학습시켜 일관된 톤의 카피를 대량으로 생성할 수 있습니다.</p><a class='modal-link' href='https://www.jasper.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-5'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-6' class='rank-detail'><h3>Notion AI</h3><p class='modal-meta'>무료 / 유료 워크스페이스에 포함</p><p>Notion 워크스페이스 안에서 글 요약, 번역, 초안 작성을 바로 처리할 수 있는 AI 기능입니다.</p><a class='modal-link' href='https://notion.so' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-6'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-7' class='rank-detail'><h3>Grammarly</h3><p class='modal-meta'>무료 / Premium 월 $12부터</p><p>영문 문법, 어투, 표절 검사를 도와주는 AI 글쓰기 보조 도구로 브라우저 확장 프로그램으로도 사용 가능합니다.</p><a class='modal-link' href='https://grammarly.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-7'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-8' class='rank-detail'><h3>Copy.ai</h3><p class='modal-meta'>무료 / Pro 월 $49부터</p><p>광고문구, 이메일, SNS 게시물 등 마케팅 카피를 빠르게 생성해주는 AI 카피라이팅 툴입니다.</p><a class='modal-link' href='https://copy.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-8'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-9' class='rank-detail'><h3>Writesonic</h3><p class='modal-meta'>무료 체험 / 월 $19부터</p><p>SEO에 최적화된 블로그 글과 광고 카피를 자동 생성하는 AI 콘텐츠 작성 도구입니다.</p><a class='modal-link' href='https://writesonic.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-9'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-10' class='rank-detail'><h3>QuillBot</h3><p class='modal-meta'>무료 / Premium 월 $9.95부터</p><p>문장을 자연스럽게 바꿔주는 패러프레이징과 요약, 문법 검사를 제공하는 AI 글쓰기 도우미입니다.</p><a class='modal-link' href='https://quillbot.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-10'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-11' class='rank-detail'><h3>Sudowrite</h3><p class='modal-meta'>월 $19부터</p><p>소설과 장편 창작에 특화된 AI로 캐릭터와 플롯 전개를 도와주는 작가용 글쓰기 툴입니다.</p><a class='modal-link' href='https://sudowrite.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-11'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-12' class='rank-detail'><h3>Rytr</h3><p class='modal-meta'>무료 / Saver 월 $9부터</p><p>짧은 광고 문구나 SNS 캡션을 빠르게 만들어주는 가벼운 AI 글쓰기 도구입니다.</p><a class='modal-link' href='https://rytr.me' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-12'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-13' class='rank-detail'><h3>DeepSeek</h3><p class='modal-meta'>무료</p><p>복잡한 추론과 코드, 글쓰기에 강한 오픈소스 기반 AI 모델입니다.</p><a class='modal-link' href='https://chat.deepseek.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-13'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-14' class='rank-detail'><h3>Llama(Meta AI)</h3><p class='modal-meta'>무료</p><p>메타에서 만든 오픈소스 기반 AI로 페이스북, 인스타그램과 연동되는 대화·글쓰기 도구입니다.</p><a class='modal-link' href='https://meta.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-14'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-15' class='rank-detail'><h3>Mistral Le Chat</h3><p class='modal-meta'>무료 / Pro 월 €14.99부터</p><p>유럽 기반 AI 기업 미스트랄의 챗봇으로 빠른 응답 속도와 다국어 지원이 강점입니다.</p><a class='modal-link' href='https://chat.mistral.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-15'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-16' class='rank-detail'><h3>HyperWrite</h3><p class='modal-meta'>무료 체험 / 월 $19.99부터</p><p>문서를 작성하는 동안 다음 문장을 예측해 자동완성해주는 AI 라이팅 어시스턴트입니다.</p><a class='modal-link' href='https://hyperwriteai.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-16'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-17' class='rank-detail'><h3>Jenni AI</h3><p class='modal-meta'>무료 체험 / 월 $20부터</p><p>학술 논문과 리포트 작성을 돕는 AI로 인용 자동완성과 표절 검사 기능을 제공합니다.</p><a class='modal-link' href='https://jenni.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-17'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-18' class='rank-detail'><h3>Wordtune</h3><p class='modal-meta'>무료 / Premium 월 $9.99부터</p><p>문장의 어투와 길이를 자유롭게 바꿔주는 AI 글쓰기 리라이팅 툴입니다.</p><a class='modal-link' href='https://wordtune.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-18'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-19' class='rank-detail'><h3>Simplified</h3><p class='modal-meta'>무료 / 유료 월 $30부터</p><p>글쓰기, 디자인, 소셜 게시까지 한 곳에서 처리하는 올인원 마케팅 AI 플랫폼입니다.</p><a class='modal-link' href='https://simplified.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-19'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-writing-20' class='rank-detail'><h3>Copysmith</h3><p class='modal-meta'>무료 체험 / 월 $19부터</p><p>이커머스 상품 설명과 광고 카피를 대량으로 생성하는 AI 카피라이팅 툴입니다.</p><a class='modal-link' href='https://copysmith.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='writing-20'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
 </section>
 <section class='cat-section' id='image'>
   <h2>이미지 AI 순위</h2>
@@ -296,7 +431,22 @@ img{max-width:100%;display:block;}
       {"@type":"ListItem","position":2,"name":"DALL-E 3","url":"https://openai.com/index/dall-e-3"},
       {"@type":"ListItem","position":3,"name":"Stable Diffusion","url":"https://stability.ai"},
       {"@type":"ListItem","position":4,"name":"Adobe Firefly","url":"https://firefly.adobe.com"},
-      {"@type":"ListItem","position":5,"name":"Leonardo AI","url":"https://leonardo.ai"}
+      {"@type":"ListItem","position":5,"name":"Leonardo AI","url":"https://leonardo.ai"},
+      {"@type":"ListItem","position":6,"name":"Ideogram","url":"https://ideogram.ai"},
+      {"@type":"ListItem","position":7,"name":"Flux","url":"https://blackforestlabs.ai"},
+      {"@type":"ListItem","position":8,"name":"Playground AI","url":"https://playground.com"},
+      {"@type":"ListItem","position":9,"name":"Recraft","url":"https://recraft.ai"},
+      {"@type":"ListItem","position":10,"name":"Lexica","url":"https://lexica.art"},
+      {"@type":"ListItem","position":11,"name":"NightCafe","url":"https://nightcafe.studio"},
+      {"@type":"ListItem","position":12,"name":"Bing Image Creator","url":"https://bing.com"},
+      {"@type":"ListItem","position":13,"name":"SeaArt","url":"https://seaart.ai"},
+      {"@type":"ListItem","position":14,"name":"Civitai","url":"https://civitai.com"},
+      {"@type":"ListItem","position":15,"name":"Krea AI","url":"https://krea.ai"},
+      {"@type":"ListItem","position":16,"name":"Photoroom","url":"https://photoroom.com"},
+      {"@type":"ListItem","position":17,"name":"Remove.bg","url":"https://remove.bg"},
+      {"@type":"ListItem","position":18,"name":"Clipdrop","url":"https://clipdrop.co"},
+      {"@type":"ListItem","position":19,"name":"Magnific AI","url":"https://magnific.ai"},
+      {"@type":"ListItem","position":20,"name":"Artbreeder","url":"https://artbreeder.com"}
     ]}
   </script>
   <ul class='rank-grid'>
@@ -335,6 +485,111 @@ img{max-width:100%;display:block;}
         <span class='rank-tags'><span>무료 크레딧</span><span>게임 아트</span></span></span>
       <a class='rank-visit' href='https://leonardo.ai' rel='nofollow noopener' target='_blank'>방문</a>
     </li>
+    <li class='rank-card' data-modal='detail-image-6' data-name='Ideogram' data-tags='무료 플랜 텍스트 표현'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-6' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>6</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=ideogram.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>I</span></span>
+      <span class='rank-info'><p class='rank-name'>Ideogram</p><p class='rank-summary'>이미지 안에 정확한 글자를 표현하는 AI 이미지 생성기</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.4</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>텍스트 표현</span></span></span>
+      <a class='rank-visit' href='https://ideogram.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-7' data-name='Flux' data-tags='무료 체험 초고해상도'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-7' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>7</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=blackforestlabs.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>F</span></span>
+      <span class='rank-info'><p class='rank-name'>Flux</p><p class='rank-summary'>사실적인 고해상도 이미지를 빠르게 생성하는 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.5</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>초고해상도</span></span></span>
+      <a class='rank-visit' href='https://blackforestlabs.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-8' data-name='Playground AI' data-tags='무료 플랜 캔버스 편집'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-8' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>8</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=playground.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>P</span></span>
+      <span class='rank-info'><p class='rank-name'>Playground AI</p><p class='rank-summary'>캔버스에서 직접 그리듯 이미지를 생성·수정하는 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>캔버스 편집</span></span></span>
+      <a class='rank-visit' href='https://playground.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-9' data-name='Recraft' data-tags='무료 플랜 벡터/로고'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-9' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>9</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=recraft.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>R</span></span>
+      <span class='rank-info'><p class='rank-name'>Recraft</p><p class='rank-summary'>벡터 일러스트와 로고 제작에 특화된 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>벡터/로고</span></span></span>
+      <a class='rank-visit' href='https://recraft.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-10' data-name='Lexica' data-tags='무료 프롬프트 검색'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-10' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>10</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=lexica.art&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>L</span></span>
+      <span class='rank-info'><p class='rank-name'>Lexica</p><p class='rank-summary'>다른 사용자 프롬프트를 검색해 참고하는 이미지 플랫폼</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료</span><span>프롬프트 검색</span></span></span>
+      <a class='rank-visit' href='https://lexica.art' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-11' data-name='NightCafe' data-tags='무료 크레딧 커뮤니티'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-11' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>11</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=nightcafe.studio&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>N</span></span>
+      <span class='rank-info'><p class='rank-name'>NightCafe</p><p class='rank-summary'>여러 AI 모델을 한 곳에서 쓰는 커뮤니티형 이미지 플랫폼</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 크레딧</span><span>커뮤니티</span></span></span>
+      <a class='rank-visit' href='https://nightcafe.studio' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-12' data-name='Bing Image Creator' data-tags='무료 DALL-E 기반'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-12' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>12</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=bing.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>B</span></span>
+      <span class='rank-info'><p class='rank-name'>Bing Image Creator</p><p class='rank-summary'>빙에서 무료로 제공하는 DALL-E 기반 이미지 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료</span><span>DALL-E 기반</span></span></span>
+      <a class='rank-visit' href='https://bing.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-13' data-name='SeaArt' data-tags='무료 플랜 애니메이션풍'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-13' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>13</span><span class='rank-logo' style='background:#f5f3ff;color:#7c3aed'><img src='https://www.google.com/s2/favicons?domain=seaart.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>S</span></span>
+      <span class='rank-info'><p class='rank-name'>SeaArt</p><p class='rank-summary'>애니메이션·일러스트 스타일에 특화된 이미지 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>애니메이션풍</span></span></span>
+      <a class='rank-visit' href='https://seaart.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-14' data-name='Civitai' data-tags='무료 모델 공유'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-14' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>14</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=civitai.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Civitai</p><p class='rank-summary'>커스텀 Stable Diffusion 모델을 공유하는 커뮤니티</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료</span><span>모델 공유</span></span></span>
+      <a class='rank-visit' href='https://civitai.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-15' data-name='Krea AI' data-tags='무료 플랜 실시간 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-15' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>15</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=krea.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>K</span></span>
+      <span class='rank-info'><p class='rank-name'>Krea AI</p><p class='rank-summary'>스케치를 실시간으로 이미지로 변환하는 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>실시간 생성</span></span></span>
+      <a class='rank-visit' href='https://krea.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-16' data-name='Photoroom' data-tags='무료 플랜 배경 제거'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-16' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>16</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=photoroom.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>P</span></span>
+      <span class='rank-info'><p class='rank-name'>Photoroom</p><p class='rank-summary'>제품 사진 배경 제거와 합성을 자동 처리하는 앱</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>배경 제거</span></span></span>
+      <a class='rank-visit' href='https://photoroom.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-17' data-name='Remove.bg' data-tags='무료 배경 제거'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-17' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>17</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=remove.bg&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>R</span></span>
+      <span class='rank-info'><p class='rank-name'>Remove.bg</p><p class='rank-summary'>클릭 한 번으로 배경을 제거해주는 AI 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.4</span></span>
+        <span class='rank-tags'><span>무료</span><span>배경 제거</span></span></span>
+      <a class='rank-visit' href='https://remove.bg' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-18' data-name='Clipdrop' data-tags='무료 플랜 합성/업스케일'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-18' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>18</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=clipdrop.co&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Clipdrop</p><p class='rank-summary'>업스케일링과 배경 제거를 지원하는 이미지 편집 툴</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>합성/업스케일</span></span></span>
+      <a class='rank-visit' href='https://clipdrop.co' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-19' data-name='Magnific AI' data-tags='유료 업스케일'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-19' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>19</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=magnific.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>M</span></span>
+      <span class='rank-info'><p class='rank-name'>Magnific AI</p><p class='rank-summary'>저해상도 이미지를 초고해상도로 업스케일하는 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>유료</span><span>업스케일</span></span></span>
+      <a class='rank-visit' href='https://magnific.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-image-20' data-name='Artbreeder' data-tags='무료 플랜 캐릭터 합성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='image-20' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>20</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=artbreeder.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>A</span></span>
+      <span class='rank-info'><p class='rank-name'>Artbreeder</p><p class='rank-summary'>이미지를 합성해 새로운 캐릭터를 만드는 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>캐릭터 합성</span></span></span>
+      <a class='rank-visit' href='https://artbreeder.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
   </ul>
   <div class='ad-slot'><p class='ad-label'>광고</p>
     <ins class='adsbygoogle' style='display:block' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='fluid' data-ad-layout-key='-fb+5w+4e-db+86' data-ad-slot='0000000003'></ins>
@@ -345,6 +600,21 @@ img{max-width:100%;display:block;}
   <div id='detail-image-3' class='rank-detail'><h3>Stable Diffusion</h3><p class='modal-meta'>오픈소스 무료 (로컬 실행 시 GPU 필요)</p><p>모델을 직접 학습·수정할 수 있는 오픈소스 생태계가 강점으로, 다양한 커스텀 모델과 확장 도구가 존재합니다.</p><a class='modal-link' href='https://stability.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-3'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-image-4' class='rank-detail'><h3>Adobe Firefly</h3><p class='modal-meta'>무료 / 유료 플랜 제공</p><p>저작권 안전성을 보장하는 학습 데이터로 만들어져 기업·상업용 작업에 적합하며, 포토샵과 매끄럽게 연동됩니다.</p><a class='modal-link' href='https://firefly.adobe.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-4'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-image-5' class='rank-detail'><h3>Leonardo AI</h3><p class='modal-meta'>무료 크레딧 제공 / 유료 플랜</p><p>게임 에셋, 캐릭터 일러스트 등 특정 스타일 학습 모델을 제공해 컨셉 아티스트들에게 인기가 많습니다.</p><a class='modal-link' href='https://leonardo.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-5'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-6' class='rank-detail'><h3>Ideogram</h3><p class='modal-meta'>무료 / 유료 월 $8부터</p><p>이미지 안에 정확한 글자와 타이포그래피를 표현하는 데 강점이 있는 AI 이미지 생성기입니다.</p><a class='modal-link' href='https://ideogram.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-6'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-7' class='rank-detail'><h3>Flux</h3><p class='modal-meta'>무료 체험 / API 과금</p><p>사실적인 사진 같은 고해상도 이미지를 빠르게 생성하는 오픈소스 기반 AI 이미지 모델입니다.</p><a class='modal-link' href='https://blackforestlabs.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-7'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-8' class='rank-detail'><h3>Playground AI</h3><p class='modal-meta'>무료 / Pro 월 $15부터</p><p>캔버스에서 직접 그리듯 이미지를 생성하고 수정할 수 있는 AI 이미지 편집 도구입니다.</p><a class='modal-link' href='https://playground.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-8'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-9' class='rank-detail'><h3>Recraft</h3><p class='modal-meta'>무료 / 유료 월 $12부터</p><p>벡터 일러스트와 로고, 아이콘 제작에 특화된 AI 이미지 생성 도구입니다.</p><a class='modal-link' href='https://recraft.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-9'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-10' class='rank-detail'><h3>Lexica</h3><p class='modal-meta'>무료</p><p>다른 사용자들의 프롬프트를 검색하고 참고해 이미지를 생성할 수 있는 AI 이미지 플랫폼입니다.</p><a class='modal-link' href='https://lexica.art' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-10'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-11' class='rank-detail'><h3>NightCafe</h3><p class='modal-meta'>무료 크레딧 / 유료 충전</p><p>다양한 AI 모델을 한 곳에서 사용할 수 있는 커뮤니티형 이미지 생성 플랫폼입니다.</p><a class='modal-link' href='https://nightcafe.studio' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-11'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-12' class='rank-detail'><h3>Bing Image Creator</h3><p class='modal-meta'>무료</p><p>마이크로소프트 빙에서 무료로 제공하는 DALL-E 기반 이미지 생성 서비스입니다.</p><a class='modal-link' href='https://bing.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-12'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-13' class='rank-detail'><h3>SeaArt</h3><p class='modal-meta'>무료 / 유료 크레딧</p><p>애니메이션, 일러스트 스타일에 특화된 무료 AI 이미지 생성 플랫폼입니다.</p><a class='modal-link' href='https://seaart.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-13'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-14' class='rank-detail'><h3>Civitai</h3><p class='modal-meta'>무료</p><p>다양한 커스텀 Stable Diffusion 모델을 공유하고 다운로드할 수 있는 AI 이미지 커뮤니티입니다.</p><a class='modal-link' href='https://civitai.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-14'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-15' class='rank-detail'><h3>Krea AI</h3><p class='modal-meta'>무료 / 유료 월 $24부터</p><p>스케치를 실시간으로 이미지로 변환해주는 빠른 반응속도의 AI 생성 도구입니다.</p><a class='modal-link' href='https://krea.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-15'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-16' class='rank-detail'><h3>Photoroom</h3><p class='modal-meta'>무료 / Pro 월 $9.99부터</p><p>제품 사진 배경 제거와 합성을 자동으로 처리해주는 AI 사진 편집 앱입니다.</p><a class='modal-link' href='https://photoroom.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-16'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-17' class='rank-detail'><h3>Remove.bg</h3><p class='modal-meta'>무료 / 유료 크레딧</p><p>클릭 한 번으로 이미지 배경을 자동 제거해주는 가장 널리 쓰이는 AI 도구입니다.</p><a class='modal-link' href='https://remove.bg' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-17'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-18' class='rank-detail'><h3>Clipdrop</h3><p class='modal-meta'>무료 / 유료 월 $9부터</p><p>이미지 업스케일링, 배경 제거, 합성까지 지원하는 Stability AI의 이미지 편집 툴입니다.</p><a class='modal-link' href='https://clipdrop.co' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-18'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-19' class='rank-detail'><h3>Magnific AI</h3><p class='modal-meta'>월 $39부터</p><p>저해상도 이미지를 초고해상도로 업스케일하는 데 특화된 AI 이미지 향상 도구입니다.</p><a class='modal-link' href='https://magnific.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-19'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-image-20' class='rank-detail'><h3>Artbreeder</h3><p class='modal-meta'>무료 / 유료 월 $8.99부터</p><p>여러 이미지를 교배하듯 합성해 새로운 캐릭터와 풍경을 만드는 AI 이미지 생성기입니다.</p><a class='modal-link' href='https://artbreeder.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='image-20'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
 </section>
 
 <section class='cat-section' id='video'>
@@ -358,7 +628,22 @@ img{max-width:100%;display:block;}
       {"@type":"ListItem","position":2,"name":"Sora","url":"https://openai.com/sora"},
       {"@type":"ListItem","position":3,"name":"Pika","url":"https://pika.art"},
       {"@type":"ListItem","position":4,"name":"CapCut","url":"https://www.capcut.com"},
-      {"@type":"ListItem","position":5,"name":"Synthesia","url":"https://www.synthesia.io"}
+      {"@type":"ListItem","position":5,"name":"Synthesia","url":"https://www.synthesia.io"},
+      {"@type":"ListItem","position":6,"name":"Kling AI","url":"https://klingai.com"},
+      {"@type":"ListItem","position":7,"name":"Luma Dream Machine","url":"https://lumalabs.ai"},
+      {"@type":"ListItem","position":8,"name":"HeyGen","url":"https://heygen.com"},
+      {"@type":"ListItem","position":9,"name":"Descript","url":"https://descript.com"},
+      {"@type":"ListItem","position":10,"name":"Pictory","url":"https://pictory.ai"},
+      {"@type":"ListItem","position":11,"name":"InVideo","url":"https://invideo.io"},
+      {"@type":"ListItem","position":12,"name":"Veed.io","url":"https://veed.io"},
+      {"@type":"ListItem","position":13,"name":"Topaz Video AI","url":"https://topazlabs.com"},
+      {"@type":"ListItem","position":14,"name":"Filmora","url":"https://filmora.wondershare.com"},
+      {"@type":"ListItem","position":15,"name":"Opus Clip","url":"https://opus.pro"},
+      {"@type":"ListItem","position":16,"name":"Vrew","url":"https://vrew.voyagerx.com"},
+      {"@type":"ListItem","position":17,"name":"Synthesys","url":"https://synthesys.io"},
+      {"@type":"ListItem","position":18,"name":"Hailuo AI","url":"https://hailuoai.video"},
+      {"@type":"ListItem","position":19,"name":"Animoto","url":"https://animoto.com"},
+      {"@type":"ListItem","position":20,"name":"Clipchamp","url":"https://clipchamp.com"}
     ]}
   </script>
   <ul class='rank-grid'>
@@ -397,6 +682,111 @@ img{max-width:100%;display:block;}
         <span class='rank-tags'><span>유료</span><span>AI 아바타</span></span></span>
       <a class='rank-visit' href='https://www.synthesia.io' rel='nofollow noopener' target='_blank'>방문</a>
     </li>
+    <li class='rank-card' data-modal='detail-video-6' data-name='Kling AI' data-tags='무료 체험 고품질 영상'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-6' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>6</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=klingai.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>K</span></span>
+      <span class='rank-info'><p class='rank-name'>Kling AI</p><p class='rank-summary'>긴 길이 영상 생성이 가능한 콰이쇼우의 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.4</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>고품질 영상</span></span></span>
+      <a class='rank-visit' href='https://klingai.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-7' data-name='Luma Dream Machine' data-tags='무료 플랜 빠른 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-7' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>7</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=lumalabs.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>L</span></span>
+      <span class='rank-info'><p class='rank-name'>Luma Dream Machine</p><p class='rank-summary'>텍스트나 이미지로 짧은 영상을 빠르게 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>빠른 생성</span></span></span>
+      <a class='rank-visit' href='https://lumalabs.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-8' data-name='HeyGen' data-tags='무료 체험 AI 아바타'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-8' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>8</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=heygen.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>H</span></span>
+      <span class='rank-info'><p class='rank-name'>HeyGen</p><p class='rank-summary'>AI 아바타가 말하는 영상을 자동 제작</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.4</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>AI 아바타</span></span></span>
+      <a class='rank-visit' href='https://heygen.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-9' data-name='Descript' data-tags='무료 플랜 텍스트 기반 편집'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-9' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>9</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=descript.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>D</span></span>
+      <span class='rank-info'><p class='rank-name'>Descript</p><p class='rank-summary'>텍스트를 편집하듯 영상과 음성을 편집</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>텍스트 기반 편집</span></span></span>
+      <a class='rank-visit' href='https://descript.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-10' data-name='Pictory' data-tags='무료 체험 블로그→영상'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-10' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>10</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=pictory.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>P</span></span>
+      <span class='rank-info'><p class='rank-name'>Pictory</p><p class='rank-summary'>블로그 글을 짧은 영상으로 변환</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>블로그→영상</span></span></span>
+      <a class='rank-visit' href='https://pictory.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-11' data-name='InVideo' data-tags='무료 플랜 템플릿 편집'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-11' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>11</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=invideo.io&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>I</span></span>
+      <span class='rank-info'><p class='rank-name'>InVideo</p><p class='rank-summary'>템플릿을 활용해 마케팅 영상을 빠르게 제작</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>템플릿 편집</span></span></span>
+      <a class='rank-visit' href='https://invideo.io' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-12' data-name='Veed.io' data-tags='무료 플랜 자막/편집'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-12' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>12</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=veed.io&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>V</span></span>
+      <span class='rank-info'><p class='rank-name'>Veed.io</p><p class='rank-summary'>자동 자막과 간편 편집을 제공하는 영상 편집기</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>자막/편집</span></span></span>
+      <a class='rank-visit' href='https://veed.io' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-13' data-name='Topaz Video AI' data-tags='유료 영상 업스케일'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-13' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>13</span><span class='rank-logo' style='background:#f5f3ff;color:#7c3aed'><img src='https://www.google.com/s2/favicons?domain=topazlabs.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>T</span></span>
+      <span class='rank-info'><p class='rank-name'>Topaz Video AI</p><p class='rank-summary'>저해상도 영상을 고해상도로 업스케일</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>유료</span><span>영상 업스케일</span></span></span>
+      <a class='rank-visit' href='https://topazlabs.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-14' data-name='Filmora' data-tags='무료 체험 올인원 편집'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-14' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>14</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=filmora.wondershare.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>F</span></span>
+      <span class='rank-info'><p class='rank-name'>Filmora</p><p class='rank-summary'>AI 자동 컷 편집과 효과를 제공하는 영상 편집기</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>올인원 편집</span></span></span>
+      <a class='rank-visit' href='https://filmora.wondershare.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-15' data-name='Opus Clip' data-tags='무료 체험 숏폼 클리핑'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-15' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>15</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=opus.pro&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>O</span></span>
+      <span class='rank-info'><p class='rank-name'>Opus Clip</p><p class='rank-summary'>긴 영상에서 하이라이트를 찾아 숏폼으로 제작</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>숏폼 클리핑</span></span></span>
+      <a class='rank-visit' href='https://opus.pro' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-16' data-name='Vrew' data-tags='무료 한국어 자막'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-16' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>16</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=vrew.voyagerx.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>V</span></span>
+      <span class='rank-info'><p class='rank-name'>Vrew</p><p class='rank-summary'>음성을 텍스트화해 자막을 만드는 한국어 영상 편집기</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.5</span></span>
+        <span class='rank-tags'><span>무료</span><span>한국어 자막</span></span></span>
+      <a class='rank-visit' href='https://vrew.voyagerx.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-17' data-name='Synthesys' data-tags='유료 AI 보이스 영상'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-17' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>17</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=synthesys.io&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>S</span></span>
+      <span class='rank-info'><p class='rank-name'>Synthesys</p><p class='rank-summary'>AI 보이스와 아바타를 결합한 더빙 영상 제작</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>유료</span><span>AI 보이스 영상</span></span></span>
+      <a class='rank-visit' href='https://synthesys.io' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-18' data-name='Hailuo AI' data-tags='무료 체험 짧은 영상 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-18' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>18</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=hailuoai.video&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>H</span></span>
+      <span class='rank-info'><p class='rank-name'>Hailuo AI</p><p class='rank-summary'>자연스러운 인물 동작 표현이 강점인 영상 생성 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>짧은 영상 생성</span></span></span>
+      <a class='rank-visit' href='https://hailuoai.video' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-19' data-name='Animoto' data-tags='무료 체험 슬라이드 영상'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-19' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>19</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=animoto.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>A</span></span>
+      <span class='rank-info'><p class='rank-name'>Animoto</p><p class='rank-summary'>사진과 클립을 모아 슬라이드 영상을 제작</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>슬라이드 영상</span></span></span>
+      <a class='rank-visit' href='https://animoto.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-video-20' data-name='Clipchamp' data-tags='무료 마이크로소프트 통합'><button aria-label='즐겨찾기' class='fav-btn' data-fav='video-20' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>20</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=clipchamp.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Clipchamp</p><p class='rank-summary'>윈도우에 내장된 무료 AI 영상 편집기</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료</span><span>마이크로소프트 통합</span></span></span>
+      <a class='rank-visit' href='https://clipchamp.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
   </ul>
   <div class='ad-slot'><p class='ad-label'>광고</p>
     <ins class='adsbygoogle' style='display:block' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='fluid' data-ad-layout-key='-fb+5w+4e-db+86' data-ad-slot='0000000004'></ins>
@@ -407,6 +797,21 @@ img{max-width:100%;display:block;}
   <div id='detail-video-3' class='rank-detail'><h3>Pika</h3><p class='modal-meta'>무료 체험 / 유료 플랜</p><p>짧고 감각적인 영상을 빠르게 뽑아내는 데 특화되어 SNS용 콘텐츠 제작에 자주 쓰입니다.</p><a class='modal-link' href='https://pika.art' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-3'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-video-4' class='rank-detail'><h3>CapCut</h3><p class='modal-meta'>무료 (워터마크 없는 유료 옵션 있음)</p><p>자동 자막 생성, 배경 제거, 음성 인식 등 AI 기능이 무료로 풍부하게 제공되어 숏폼 제작자들에게 가장 인기 있는 툴입니다.</p><a class='modal-link' href='https://www.capcut.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-4'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-video-5' class='rank-detail'><h3>Synthesia</h3><p class='modal-meta'>월 $18부터</p><p>실제 사람처럼 보이는 AI 아바타가 여러 언어로 대본을 읽어주어, 사내 교육·제품 소개 영상 제작에 많이 쓰입니다.</p><a class='modal-link' href='https://www.synthesia.io' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-5'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-6' class='rank-detail'><h3>Kling AI</h3><p class='modal-meta'>무료 체험 / 유료 크레딧</p><p>사실적인 움직임과 긴 길이의 영상 생성이 가능한 중국 콰이쇼우의 AI 영상 생성 도구입니다.</p><a class='modal-link' href='https://klingai.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-6'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-7' class='rank-detail'><h3>Luma Dream Machine</h3><p class='modal-meta'>무료 / 유료 월 $9.99부터</p><p>텍스트나 이미지로 짧은 영상을 빠르게 만들어주는 AI 영상 생성 서비스입니다.</p><a class='modal-link' href='https://lumalabs.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-7'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-8' class='rank-detail'><h3>HeyGen</h3><p class='modal-meta'>무료 체험 / 월 $29부터</p><p>AI 아바타가 직접 말하는 영상을 자동으로 만들어주는 마케팅·교육용 영상 제작 도구입니다.</p><a class='modal-link' href='https://heygen.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-8'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-9' class='rank-detail'><h3>Descript</h3><p class='modal-meta'>무료 / Pro 월 $24부터</p><p>텍스트를 편집하듯 영상과 음성을 편집할 수 있는 AI 영상 편집 도구입니다.</p><a class='modal-link' href='https://descript.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-9'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-10' class='rank-detail'><h3>Pictory</h3><p class='modal-meta'>무료 체험 / 월 $19부터</p><p>블로그 글이나 스크립트를 자동으로 짧은 영상으로 변환해주는 AI 도구입니다.</p><a class='modal-link' href='https://pictory.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-10'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-11' class='rank-detail'><h3>InVideo</h3><p class='modal-meta'>무료 / Plus 월 $20부터</p><p>다양한 템플릿을 활용해 마케팅 영상을 빠르게 만들 수 있는 AI 영상 제작 플랫폼입니다.</p><a class='modal-link' href='https://invideo.io' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-11'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-12' class='rank-detail'><h3>Veed.io</h3><p class='modal-meta'>무료 / Pro 월 $18부터</p><p>자동 자막 생성과 간편한 편집 기능을 제공하는 브라우저 기반 AI 영상 편집기입니다.</p><a class='modal-link' href='https://veed.io' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-12'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-13' class='rank-detail'><h3>Topaz Video AI</h3><p class='modal-meta'>월 $299(일회성)</p><p>저해상도 영상을 고해상도로 업스케일하고 노이즈를 제거하는 AI 영상 향상 도구입니다.</p><a class='modal-link' href='https://topazlabs.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-13'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-14' class='rank-detail'><h3>Filmora</h3><p class='modal-meta'>무료 체험 / 연 $49.99부터</p><p>AI 기반 자동 컷 편집과 효과를 제공하는 대중적인 영상 편집 소프트웨어입니다.</p><a class='modal-link' href='https://filmora.wondershare.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-14'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-15' class='rank-detail'><h3>Opus Clip</h3><p class='modal-meta'>무료 체험 / 월 $15부터</p><p>긴 영상에서 자동으로 하이라이트를 찾아 숏폼 클립으로 만들어주는 AI 도구입니다.</p><a class='modal-link' href='https://opus.pro' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-15'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-16' class='rank-detail'><h3>Vrew</h3><p class='modal-meta'>무료 / 유료 플랜 있음</p><p>음성을 자동으로 텍스트화해 자막을 만들어주는 한국에서 가장 널리 쓰이는 AI 영상 편집기입니다.</p><a class='modal-link' href='https://vrew.voyagerx.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-16'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-17' class='rank-detail'><h3>Synthesys</h3><p class='modal-meta'>월 $29부터</p><p>AI 보이스와 아바타를 결합해 더빙 영상을 제작하는 영상 제작 플랫폼입니다.</p><a class='modal-link' href='https://synthesys.io' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-17'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-18' class='rank-detail'><h3>Hailuo AI</h3><p class='modal-meta'>무료 체험 / 유료 크레딧</p><p>미니맥스에서 개발한 영상 생성 AI로 자연스러운 인물 동작 표현이 강점입니다.</p><a class='modal-link' href='https://hailuoai.video' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-18'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-19' class='rank-detail'><h3>Animoto</h3><p class='modal-meta'>무료 체험 / 월 $15부터</p><p>사진과 클립을 모아 자동으로 슬라이드 영상을 만들어주는 영상 제작 도구입니다.</p><a class='modal-link' href='https://animoto.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-19'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-video-20' class='rank-detail'><h3>Clipchamp</h3><p class='modal-meta'>무료 / 유료 플랜 있음</p><p>윈도우에 기본 내장된 마이크로소프트의 무료 AI 영상 편집 도구입니다.</p><a class='modal-link' href='https://clipchamp.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='video-20'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
 </section>
 <section class='cat-section' id='coding'>
   <h2>코딩 AI 순위</h2>
@@ -419,7 +824,22 @@ img{max-width:100%;display:block;}
       {"@type":"ListItem","position":2,"name":"Cursor","url":"https://www.cursor.com"},
       {"@type":"ListItem","position":3,"name":"Claude Code","url":"https://www.anthropic.com/claude-code"},
       {"@type":"ListItem","position":4,"name":"Replit AI","url":"https://replit.com"},
-      {"@type":"ListItem","position":5,"name":"Tabnine","url":"https://www.tabnine.com"}
+      {"@type":"ListItem","position":5,"name":"Tabnine","url":"https://www.tabnine.com"},
+      {"@type":"ListItem","position":6,"name":"Windsurf","url":"https://windsurf.com"},
+      {"@type":"ListItem","position":7,"name":"v0 by Vercel","url":"https://v0.dev"},
+      {"@type":"ListItem","position":8,"name":"Bolt.new","url":"https://bolt.new"},
+      {"@type":"ListItem","position":9,"name":"Lovable","url":"https://lovable.dev"},
+      {"@type":"ListItem","position":10,"name":"Amazon Q Developer","url":"https://aws.amazon.com"},
+      {"@type":"ListItem","position":11,"name":"JetBrains AI","url":"https://jetbrains.com"},
+      {"@type":"ListItem","position":12,"name":"Sourcegraph Cody","url":"https://sourcegraph.com"},
+      {"@type":"ListItem","position":13,"name":"Aider","url":"https://aider.chat"},
+      {"@type":"ListItem","position":14,"name":"Tabby","url":"https://tabbyml.com"},
+      {"@type":"ListItem","position":15,"name":"Phind","url":"https://phind.com"},
+      {"@type":"ListItem","position":16,"name":"Continue","url":"https://continue.dev"},
+      {"@type":"ListItem","position":17,"name":"Warp","url":"https://warp.dev"},
+      {"@type":"ListItem","position":18,"name":"Devin","url":"https://devin.ai"},
+      {"@type":"ListItem","position":19,"name":"Qodo","url":"https://qodo.ai"},
+      {"@type":"ListItem","position":20,"name":"CodeRabbit","url":"https://coderabbit.ai"}
     ]}
   </script>
   <ul class='rank-grid'>
@@ -458,6 +878,111 @@ img{max-width:100%;display:block;}
         <span class='rank-tags'><span>무료 플랜</span><span>프라이버시</span></span></span>
       <a class='rank-visit' href='https://www.tabnine.com' rel='nofollow noopener' target='_blank'>방문</a>
     </li>
+    <li class='rank-card' data-modal='detail-coding-6' data-name='Windsurf' data-tags='무료 플랜 에이전트형 IDE'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-6' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>6</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=windsurf.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>W</span></span>
+      <span class='rank-info'><p class='rank-name'>Windsurf</p><p class='rank-summary'>코드를 직접 작성·수정하는 차세대 AI 코딩 에디터</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.4</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>에이전트형 IDE</span></span></span>
+      <a class='rank-visit' href='https://windsurf.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-7' data-name='v0 by Vercel' data-tags='무료 플랜 UI 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-7' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>7</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=v0.dev&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>v</span></span>
+      <span class='rank-info'><p class='rank-name'>v0 by Vercel</p><p class='rank-summary'>프롬프트로 React UI 컴포넌트를 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>UI 생성</span></span></span>
+      <a class='rank-visit' href='https://v0.dev' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-8' data-name='Bolt.new' data-tags='무료 체험 웹앱 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-8' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>8</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=bolt.new&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>B</span></span>
+      <span class='rank-info'><p class='rank-name'>Bolt.new</p><p class='rank-summary'>대화만으로 풀스택 웹 앱을 즉시 생성·배포</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>웹앱 생성</span></span></span>
+      <a class='rank-visit' href='https://bolt.new' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-9' data-name='Lovable' data-tags='무료 체험 노코드 앱'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-9' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>9</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=lovable.dev&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>L</span></span>
+      <span class='rank-info'><p class='rank-name'>Lovable</p><p class='rank-summary'>대화형 프롬프트로 웹 앱을 만드는 노코드 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>노코드 앱</span></span></span>
+      <a class='rank-visit' href='https://lovable.dev' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-10' data-name='Amazon Q Developer' data-tags='무료 플랜 AWS 통합'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-10' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>10</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=aws.amazon.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>A</span></span>
+      <span class='rank-info'><p class='rank-name'>Amazon Q Developer</p><p class='rank-summary'>AWS 클라우드 개발에 특화된 AI 코딩 어시스턴트</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>AWS 통합</span></span></span>
+      <a class='rank-visit' href='https://aws.amazon.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-11' data-name='JetBrains AI' data-tags='유료 IDE 통합'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-11' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>11</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=jetbrains.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>J</span></span>
+      <span class='rank-info'><p class='rank-name'>JetBrains AI</p><p class='rank-summary'>JetBrains IDE에 내장된 코드 완성 어시스턴트</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>유료</span><span>IDE 통합</span></span></span>
+      <a class='rank-visit' href='https://jetbrains.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-12' data-name='Sourcegraph Cody' data-tags='무료 플랜 코드 검색'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-12' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>12</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=sourcegraph.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>S</span></span>
+      <span class='rank-info'><p class='rank-name'>Sourcegraph Cody</p><p class='rank-summary'>대규모 코드베이스를 이해·설명하는 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>코드 검색</span></span></span>
+      <a class='rank-visit' href='https://sourcegraph.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-13' data-name='Aider' data-tags='무료 오픈소스 터미널 기반'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-13' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>13</span><span class='rank-logo' style='background:#f5f3ff;color:#7c3aed'><img src='https://www.google.com/s2/favicons?domain=aider.chat&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>A</span></span>
+      <span class='rank-info'><p class='rank-name'>Aider</p><p class='rank-summary'>git 저장소를 직접 수정하는 페어 프로그래밍 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 오픈소스</span><span>터미널 기반</span></span></span>
+      <a class='rank-visit' href='https://aider.chat' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-14' data-name='Tabby' data-tags='무료 오픈소스 셀프 호스팅'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-14' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>14</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=tabbyml.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>T</span></span>
+      <span class='rank-info'><p class='rank-name'>Tabby</p><p class='rank-summary'>직접 호스팅하는 오픈소스 코드 자동완성 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 오픈소스</span><span>셀프 호스팅</span></span></span>
+      <a class='rank-visit' href='https://tabbyml.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-15' data-name='Phind' data-tags='무료 플랜 개발자 검색'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-15' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>15</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=phind.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>P</span></span>
+      <span class='rank-info'><p class='rank-name'>Phind</p><p class='rank-summary'>개발 질문에 특화된 AI 검색 엔진</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>개발자 검색</span></span></span>
+      <a class='rank-visit' href='https://phind.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-16' data-name='Continue' data-tags='무료 오픈소스 커스텀 에이전트'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-16' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>16</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=continue.dev&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Continue</p><p class='rank-summary'>원하는 모델을 연결하는 오픈소스 코딩 어시스턴트</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 오픈소스</span><span>커스텀 에이전트</span></span></span>
+      <a class='rank-visit' href='https://continue.dev' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-17' data-name='Warp' data-tags='무료 플랜 AI 터미널'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-17' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>17</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=warp.dev&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>W</span></span>
+      <span class='rank-info'><p class='rank-name'>Warp</p><p class='rank-summary'>명령어를 자연어로 입력하는 AI 터미널</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>AI 터미널</span></span></span>
+      <a class='rank-visit' href='https://warp.dev' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-18' data-name='Devin' data-tags='유료 자율 에이전트'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-18' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>18</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=devin.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>D</span></span>
+      <span class='rank-info'><p class='rank-name'>Devin</p><p class='rank-summary'>스스로 계획을 세워 작업하는 자율형 AI 엔지니어</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>유료</span><span>자율 에이전트</span></span></span>
+      <a class='rank-visit' href='https://devin.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-19' data-name='Qodo' data-tags='무료 플랜 테스트 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-19' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>19</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=qodo.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>Q</span></span>
+      <span class='rank-info'><p class='rank-name'>Qodo</p><p class='rank-summary'>코드에 맞는 테스트 케이스를 자동 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>테스트 생성</span></span></span>
+      <a class='rank-visit' href='https://qodo.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-coding-20' data-name='CodeRabbit' data-tags='무료 플랜 PR 리뷰'><button aria-label='즐겨찾기' class='fav-btn' data-fav='coding-20' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>20</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=coderabbit.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>CodeRabbit</p><p class='rank-summary'>Pull Request를 자동으로 리뷰하는 AI 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>PR 리뷰</span></span></span>
+      <a class='rank-visit' href='https://coderabbit.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
   </ul>
   <div class='ad-slot'><p class='ad-label'>광고</p>
     <ins class='adsbygoogle' style='display:block' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='fluid' data-ad-layout-key='-fb+5w+4e-db+86' data-ad-slot='0000000005'></ins>
@@ -468,6 +993,21 @@ img{max-width:100%;display:block;}
   <div id='detail-coding-3' class='rank-detail'><h3>Claude Code</h3><p class='modal-meta'>Claude 구독 플랜 포함</p><p>터미널에서 명령을 내리면 파일 탐색, 수정, 테스트 실행까지 스스로 처리하는 에이전트형 코딩 도구입니다.</p><a class='modal-link' href='https://www.anthropic.com/claude-code' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-3'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-coding-4' class='rank-detail'><h3>Replit AI</h3><p class='modal-meta'>무료 플랜 / 유료 플랜</p><p>설치 없이 브라우저에서 바로 코드를 작성, 실행, 배포할 수 있어 빠른 프로토타이핑과 코딩 학습에 적합합니다.</p><a class='modal-link' href='https://replit.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-4'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-coding-5' class='rank-detail'><h3>Tabnine</h3><p class='modal-meta'>무료 플랜 / 유료 플랜</p><p>코드가 외부 서버로 나가는 것을 꺼리는 기업 환경을 위해 온프레미스·프라이빗 모델 옵션을 제공합니다.</p><a class='modal-link' href='https://www.tabnine.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-5'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-6' class='rank-detail'><h3>Windsurf</h3><p class='modal-meta'>무료 / Pro 월 $15부터</p><p>에이전트가 코드를 직접 작성하고 수정하는 차세대 AI 코딩 에디터입니다.</p><a class='modal-link' href='https://windsurf.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-6'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-7' class='rank-detail'><h3>v0 by Vercel</h3><p class='modal-meta'>무료 / 유료 크레딧</p><p>프롬프트만으로 React UI 컴포넌트를 생성해주는 버셀의 AI 코딩 도구입니다.</p><a class='modal-link' href='https://v0.dev' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-7'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-8' class='rank-detail'><h3>Bolt.new</h3><p class='modal-meta'>무료 체험 / 유료 크레딧</p><p>대화만으로 풀스택 웹 앱을 즉시 생성하고 배포하는 AI 코딩 플랫폼입니다.</p><a class='modal-link' href='https://bolt.new' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-8'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-9' class='rank-detail'><h3>Lovable</h3><p class='modal-meta'>무료 체험 / 월 $20부터</p><p>대화형 프롬프트로 웹 애플리케이션을 만들어주는 노코드·AI 결합 개발 도구입니다.</p><a class='modal-link' href='https://lovable.dev' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-9'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-10' class='rank-detail'><h3>Amazon Q Developer</h3><p class='modal-meta'>무료 / Pro 월 $19부터</p><p>AWS 클라우드 개발에 특화된 아마존의 AI 코딩 어시스턴트입니다.</p><a class='modal-link' href='https://aws.amazon.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-10'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-11' class='rank-detail'><h3>JetBrains AI</h3><p class='modal-meta'>월 $10부터</p><p>인텔리제이 등 JetBrains IDE에 내장된 코드 완성·리팩토링 AI 어시스턴트입니다.</p><a class='modal-link' href='https://jetbrains.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-11'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-12' class='rank-detail'><h3>Sourcegraph Cody</h3><p class='modal-meta'>무료 / Pro 월 $9부터</p><p>대규모 코드베이스를 이해하고 검색·설명해주는 AI 코딩 어시스턴트입니다.</p><a class='modal-link' href='https://sourcegraph.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-12'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-13' class='rank-detail'><h3>Aider</h3><p class='modal-meta'>무료 오픈소스</p><p>터미널에서 git 저장소를 직접 수정하는 오픈소스 AI 페어 프로그래밍 도구입니다.</p><a class='modal-link' href='https://aider.chat' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-13'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-14' class='rank-detail'><h3>Tabby</h3><p class='modal-meta'>무료 오픈소스</p><p>직접 호스팅할 수 있는 오픈소스 AI 코드 자동완성 도구입니다.</p><a class='modal-link' href='https://tabbyml.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-14'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-15' class='rank-detail'><h3>Phind</h3><p class='modal-meta'>무료 / Pro 월 $17부터</p><p>개발 관련 질문에 답하는 데 특화된 AI 검색 엔진입니다.</p><a class='modal-link' href='https://phind.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-15'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-16' class='rank-detail'><h3>Continue</h3><p class='modal-meta'>무료 오픈소스</p><p>원하는 모델을 연결해 직접 커스터마이징하는 오픈소스 AI 코딩 어시스턴트입니다.</p><a class='modal-link' href='https://continue.dev' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-16'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-17' class='rank-detail'><h3>Warp</h3><p class='modal-meta'>무료 / Pro 월 $15부터</p><p>명령어를 자연어로 입력하고 자동완성해주는 AI 기반 터미널 도구입니다.</p><a class='modal-link' href='https://warp.dev' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-17'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-18' class='rank-detail'><h3>Devin</h3><p class='modal-meta'>월 $20부터</p><p>스스로 계획을 세우고 작업을 수행하는 자율형 AI 소프트웨어 엔지니어입니다.</p><a class='modal-link' href='https://devin.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-18'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-19' class='rank-detail'><h3>Qodo</h3><p class='modal-meta'>무료 / 유료 플랜 있음</p><p>코드에 맞는 테스트 케이스를 자동으로 생성해주는 AI 코드 품질 도구입니다.</p><a class='modal-link' href='https://qodo.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-19'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-coding-20' class='rank-detail'><h3>CodeRabbit</h3><p class='modal-meta'>무료 / 유료 플랜 있음</p><p>Pull Request를 자동으로 리뷰하고 피드백을 남겨주는 AI 코드 리뷰 도구입니다.</p><a class='modal-link' href='https://coderabbit.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='coding-20'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
 </section>
 <section class='cat-section' id='voice'>
   <h2>음성 AI 순위</h2>
@@ -480,7 +1020,22 @@ img{max-width:100%;display:block;}
       {"@type":"ListItem","position":2,"name":"Suno","url":"https://suno.com"},
       {"@type":"ListItem","position":3,"name":"Typecast","url":"https://typecast.ai"},
       {"@type":"ListItem","position":4,"name":"Murf AI","url":"https://murf.ai"},
-      {"@type":"ListItem","position":5,"name":"Adobe Podcast","url":"https://podcast.adobe.com"}
+      {"@type":"ListItem","position":5,"name":"Adobe Podcast","url":"https://podcast.adobe.com"},
+      {"@type":"ListItem","position":6,"name":"Udio","url":"https://udio.com"},
+      {"@type":"ListItem","position":7,"name":"Play.ht","url":"https://play.ht"},
+      {"@type":"ListItem","position":8,"name":"Speechify","url":"https://speechify.com"},
+      {"@type":"ListItem","position":9,"name":"WellSaid Labs","url":"https://wellsaidlabs.com"},
+      {"@type":"ListItem","position":10,"name":"Resemble AI","url":"https://resemble.ai"},
+      {"@type":"ListItem","position":11,"name":"Voicemod","url":"https://voicemod.net"},
+      {"@type":"ListItem","position":12,"name":"Clova Voice","url":"https://clova.ai"},
+      {"@type":"ListItem","position":13,"name":"AIVA","url":"https://aiva.ai"},
+      {"@type":"ListItem","position":14,"name":"Voice.ai","url":"https://voice.ai"},
+      {"@type":"ListItem","position":15,"name":"LOVO AI","url":"https://lovo.ai"},
+      {"@type":"ListItem","position":16,"name":"Krisp","url":"https://krisp.ai"},
+      {"@type":"ListItem","position":17,"name":"Otter.ai","url":"https://otter.ai"},
+      {"@type":"ListItem","position":18,"name":"Clova Note","url":"https://clovanote.naver.com"},
+      {"@type":"ListItem","position":19,"name":"Riverside.fm","url":"https://riverside.fm"},
+      {"@type":"ListItem","position":20,"name":"Voicemaker","url":"https://voicemaker.in"}
     ]}
   </script>
   <ul class='rank-grid'>
@@ -509,6 +1064,111 @@ img{max-width:100%;display:block;}
         <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
         <span class='rank-tags'><span>무료</span><span>음질 개선</span></span></span>
       <a class='rank-visit' href='https://podcast.adobe.com' rel='nofollow noopener' target='_blank'>방문</a></li>
+    <li class='rank-card' data-modal='detail-voice-6' data-name='Udio' data-tags='무료 체험 AI 작곡'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-6' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>6</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=udio.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>U</span></span>
+      <span class='rank-info'><p class='rank-name'>Udio</p><p class='rank-summary'>텍스트 설명으로 완성도 높은 음악을 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>AI 작곡</span></span></span>
+      <a class='rank-visit' href='https://udio.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-7' data-name='Play.ht' data-tags='무료 플랜 음성 합성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-7' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>7</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=play.ht&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>P</span></span>
+      <span class='rank-info'><p class='rank-name'>Play.ht</p><p class='rank-summary'>자연스러운 다국어 음성을 합성하는 TTS</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>음성 합성</span></span></span>
+      <a class='rank-visit' href='https://play.ht' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-8' data-name='Speechify' data-tags='무료 플랜 텍스트 읽기'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-8' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>8</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=speechify.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>S</span></span>
+      <span class='rank-info'><p class='rank-name'>Speechify</p><p class='rank-summary'>글을 자연스러운 목소리로 읽어주는 TTS 앱</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>텍스트 읽기</span></span></span>
+      <a class='rank-visit' href='https://speechify.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-9' data-name='WellSaid Labs' data-tags='유료 기업용 보이스'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-9' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>9</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=wellsaidlabs.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>W</span></span>
+      <span class='rank-info'><p class='rank-name'>WellSaid Labs</p><p class='rank-summary'>기업 콘텐츠에 적합한 고품질 AI 음성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>유료</span><span>기업용 보이스</span></span></span>
+      <a class='rank-visit' href='https://wellsaidlabs.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-10' data-name='Resemble AI' data-tags='유료 보이스 클로닝'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-10' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>10</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=resemble.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>R</span></span>
+      <span class='rank-info'><p class='rank-name'>Resemble AI</p><p class='rank-summary'>실시간 보이스 클로닝과 음성 변환 지원</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>유료</span><span>보이스 클로닝</span></span></span>
+      <a class='rank-visit' href='https://resemble.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-11' data-name='Voicemod' data-tags='무료 플랜 실시간 음성 변조'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-11' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>11</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=voicemod.net&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>V</span></span>
+      <span class='rank-info'><p class='rank-name'>Voicemod</p><p class='rank-summary'>게임·스트리밍 중 실시간 목소리 변조</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>실시간 음성 변조</span></span></span>
+      <a class='rank-visit' href='https://voicemod.net' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-12' data-name='Clova Voice' data-tags='무료 체험 한국어 특화'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-12' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>12</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=clova.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Clova Voice</p><p class='rank-summary'>한국어에 특화된 고품질 음성 합성 서비스</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>한국어 특화</span></span></span>
+      <a class='rank-visit' href='https://clova.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-13' data-name='AIVA' data-tags='무료 플랜 배경음악 작곡'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-13' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>13</span><span class='rank-logo' style='background:#f5f3ff;color:#7c3aed'><img src='https://www.google.com/s2/favicons?domain=aiva.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>A</span></span>
+      <span class='rank-info'><p class='rank-name'>AIVA</p><p class='rank-summary'>영상·게임용 배경음악을 자동 작곡</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>배경음악 작곡</span></span></span>
+      <a class='rank-visit' href='https://aiva.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-14' data-name='Voice.ai' data-tags='무료 플랜 실시간 보이스체인저'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-14' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>14</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=voice.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>V</span></span>
+      <span class='rank-info'><p class='rank-name'>Voice.ai</p><p class='rank-summary'>실시간 음성 변환으로 다른 목소리로 말하기</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>실시간 보이스체인저</span></span></span>
+      <a class='rank-visit' href='https://voice.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-15' data-name='LOVO AI' data-tags='무료 체험 더빙/보이스오버'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-15' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>15</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=lovo.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>L</span></span>
+      <span class='rank-info'><p class='rank-name'>LOVO AI</p><p class='rank-summary'>다양한 AI 목소리로 더빙·보이스오버 제작</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>더빙/보이스오버</span></span></span>
+      <a class='rank-visit' href='https://lovo.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-16' data-name='Krisp' data-tags='무료 플랜 노이즈 제거'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-16' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>16</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=krisp.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>K</span></span>
+      <span class='rank-info'><p class='rank-name'>Krisp</p><p class='rank-summary'>화상회의 중 배경 소음을 실시간 제거</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>노이즈 제거</span></span></span>
+      <a class='rank-visit' href='https://krisp.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-17' data-name='Otter.ai' data-tags='무료 플랜 회의록 자동화'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-17' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>17</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=otter.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>O</span></span>
+      <span class='rank-info'><p class='rank-name'>Otter.ai</p><p class='rank-summary'>회의 음성을 받아쓰고 요약하는 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>회의록 자동화</span></span></span>
+      <a class='rank-visit' href='https://otter.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-18' data-name='Clova Note' data-tags='무료 한국어 회의록'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-18' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>18</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=clovanote.naver.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Clova Note</p><p class='rank-summary'>한국어 회의·강의 음성을 받아쓰는 AI 노트</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.4</span></span>
+        <span class='rank-tags'><span>무료</span><span>한국어 회의록</span></span></span>
+      <a class='rank-visit' href='https://clovanote.naver.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-19' data-name='Riverside.fm' data-tags='무료 체험 팟캐스트 녹음'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-19' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>19</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=riverside.fm&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>R</span></span>
+      <span class='rank-info'><p class='rank-name'>Riverside.fm</p><p class='rank-summary'>고음질 원격 팟캐스트 녹화와 AI 편집</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>팟캐스트 녹음</span></span></span>
+      <a class='rank-visit' href='https://riverside.fm' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-voice-20' data-name='Voicemaker' data-tags='무료 플랜 간편 TTS'><button aria-label='즐겨찾기' class='fav-btn' data-fav='voice-20' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>20</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=voicemaker.in&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>V</span></span>
+      <span class='rank-info'><p class='rank-name'>Voicemaker</p><p class='rank-summary'>간단한 인터페이스로 빠르게 텍스트를 음성으로 변환</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>간편 TTS</span></span></span>
+      <a class='rank-visit' href='https://voicemaker.in' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
   </ul>
   <div class='ad-slot'><p class='ad-label'>광고</p>
     <ins class='adsbygoogle' style='display:block' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='fluid' data-ad-layout-key='-fb+5w+4e-db+86' data-ad-slot='0000000006'></ins>
@@ -519,6 +1179,21 @@ img{max-width:100%;display:block;}
   <div id='detail-voice-3' class='rank-detail'><h3>Typecast</h3><p class='modal-meta'>무료 체험 / 유료 플랜</p><p>국내 콘텐츠 제작자들이 유튜브 내레이션, 광고 더빙에 즐겨 쓰는 한국어 특화 음성 AI입니다.</p><a class='modal-link' href='https://typecast.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-3'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-voice-4' class='rank-detail'><h3>Murf AI</h3><p class='modal-meta'>무료 체험 / 유료 플랜</p><p>120개 이상의 목소리와 다양한 언어를 지원해 글로벌 발표 영상 제작에 적합합니다.</p><a class='modal-link' href='https://murf.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-4'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-voice-5' class='rank-detail'><h3>Adobe Podcast</h3><p class='modal-meta'>무료</p><p>녹음 환경이 좋지 않아도 스튜디오 품질로 음질을 보정해주는 무료 AI 도구입니다.</p><a class='modal-link' href='https://podcast.adobe.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-5'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-6' class='rank-detail'><h3>Udio</h3><p class='modal-meta'>무료 체험 / 유료 플랜 있음</p><p>텍스트 설명만으로 완성도 높은 음악을 생성하는 AI 작곡 플랫폼입니다.</p><a class='modal-link' href='https://udio.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-6'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-7' class='rank-detail'><h3>Play.ht</h3><p class='modal-meta'>무료 / Pro 월 $39부터</p><p>자연스러운 다국어 음성을 합성해주는 텍스트-투-스피치 AI 플랫폼입니다.</p><a class='modal-link' href='https://play.ht' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-7'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-8' class='rank-detail'><h3>Speechify</h3><p class='modal-meta'>무료 / Premium 월 $11.58부터</p><p>문서나 글을 자연스러운 목소리로 읽어주는 텍스트-투-스피치 앱입니다.</p><a class='modal-link' href='https://speechify.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-8'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-9' class='rank-detail'><h3>WellSaid Labs</h3><p class='modal-meta'>문의 후 가격 책정</p><p>기업용 콘텐츠에 적합한 고품질 AI 음성을 제공하는 보이스 플랫폼입니다.</p><a class='modal-link' href='https://wellsaidlabs.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-9'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-10' class='rank-detail'><h3>Resemble AI</h3><p class='modal-meta'>월 $1부터(사용량 기반)</p><p>실시간 보이스 클로닝과 음성 변환을 지원하는 AI 음성 생성 플랫폼입니다.</p><a class='modal-link' href='https://resemble.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-10'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-11' class='rank-detail'><h3>Voicemod</h3><p class='modal-meta'>무료 / Pro 월 $4부터</p><p>게임이나 스트리밍 중 실시간으로 목소리를 변조해주는 AI 음성 변조 도구입니다.</p><a class='modal-link' href='https://voicemod.net' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-11'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-12' class='rank-detail'><h3>Clova Voice</h3><p class='modal-meta'>무료 체험 / 사용량 과금</p><p>네이버가 만든 한국어에 특화된 고품질 AI 음성 합성 서비스입니다.</p><a class='modal-link' href='https://clova.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-12'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-13' class='rank-detail'><h3>AIVA</h3><p class='modal-meta'>무료 / Pro 월 €11부터</p><p>영상이나 게임에 쓸 배경음악을 자동으로 작곡해주는 AI 작곡 도구입니다.</p><a class='modal-link' href='https://aiva.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-13'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-14' class='rank-detail'><h3>Voice.ai</h3><p class='modal-meta'>무료 / 유료 플랜 있음</p><p>실시간 음성 변환으로 다른 사람 목소리처럼 말할 수 있게 해주는 AI 도구입니다.</p><a class='modal-link' href='https://voice.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-14'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-15' class='rank-detail'><h3>LOVO AI</h3><p class='modal-meta'>무료 체험 / 월 $24부터</p><p>다양한 AI 목소리로 더빙과 보이스오버를 제작하는 음성 생성 플랫폼입니다.</p><a class='modal-link' href='https://lovo.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-15'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-16' class='rank-detail'><h3>Krisp</h3><p class='modal-meta'>무료 / Pro 월 $8부터</p><p>화상회의 중 배경 소음을 실시간으로 제거해주는 AI 음성 정제 도구입니다.</p><a class='modal-link' href='https://krisp.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-16'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-17' class='rank-detail'><h3>Otter.ai</h3><p class='modal-meta'>무료 / Pro 월 $16.99부터</p><p>회의 음성을 실시간으로 받아쓰고 요약해주는 AI 회의록 작성 도구입니다.</p><a class='modal-link' href='https://otter.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-17'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-18' class='rank-detail'><h3>Clova Note</h3><p class='modal-meta'>무료</p><p>한국어 회의·강의 음성을 정확하게 받아쓰고 요약하는 네이버의 AI 노트 앱입니다.</p><a class='modal-link' href='https://clovanote.naver.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-18'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-19' class='rank-detail'><h3>Riverside.fm</h3><p class='modal-meta'>무료 체험 / 월 $15부터</p><p>고음질 원격 팟캐스트·인터뷰 녹화와 AI 편집을 지원하는 플랫폼입니다.</p><a class='modal-link' href='https://riverside.fm' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-19'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-voice-20' class='rank-detail'><h3>Voicemaker</h3><p class='modal-meta'>무료 / 유료 크레딧</p><p>간단한 인터페이스로 빠르게 텍스트를 음성으로 변환해주는 TTS 도구입니다.</p><a class='modal-link' href='https://voicemaker.in' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='voice-20'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
 </section>
 
 <section class='cat-section' id='translate'>
@@ -532,7 +1207,22 @@ img{max-width:100%;display:block;}
       {"@type":"ListItem","position":2,"name":"Papago","url":"https://papago.naver.com"},
       {"@type":"ListItem","position":3,"name":"Google 번역","url":"https://translate.google.com"},
       {"@type":"ListItem","position":4,"name":"ChatGPT","url":"https://chatgpt.com"},
-      {"@type":"ListItem","position":5,"name":"Microsoft Translator","url":"https://www.microsoft.com/translator"}
+      {"@type":"ListItem","position":5,"name":"Microsoft Translator","url":"https://www.microsoft.com/translator"},
+      {"@type":"ListItem","position":6,"name":"Flitto","url":"https://flitto.com"},
+      {"@type":"ListItem","position":7,"name":"Reverso","url":"https://reverso.net"},
+      {"@type":"ListItem","position":8,"name":"Yandex Translate","url":"https://translate.yandex.com"},
+      {"@type":"ListItem","position":9,"name":"Linguee","url":"https://linguee.com"},
+      {"@type":"ListItem","position":10,"name":"iTranslate","url":"https://itranslate.com"},
+      {"@type":"ListItem","position":11,"name":"SYSTRAN","url":"https://systran.net"},
+      {"@type":"ListItem","position":12,"name":"Amazon Translate","url":"https://aws.amazon.com"},
+      {"@type":"ListItem","position":13,"name":"Lilt","url":"https://lilt.com"},
+      {"@type":"ListItem","position":14,"name":"Crowdin","url":"https://crowdin.com"},
+      {"@type":"ListItem","position":15,"name":"DeepL Write","url":"https://write.deepl.com"},
+      {"@type":"ListItem","position":16,"name":"Wordvice AI","url":"https://wordvice.ai"},
+      {"@type":"ListItem","position":17,"name":"Apple Translate","url":"https://apple.com"},
+      {"@type":"ListItem","position":18,"name":"TextUnited","url":"https://textunited.com"},
+      {"@type":"ListItem","position":19,"name":"ModernMT","url":"https://modernmt.com"},
+      {"@type":"ListItem","position":20,"name":"TranslatePress","url":"https://translatepress.com"}
     ]}
   </script>
   <ul class='rank-grid'>
@@ -561,6 +1251,111 @@ img{max-width:100%;display:block;}
         <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
         <span class='rank-tags'><span>무료</span><span>실시간 통역</span></span></span>
       <a class='rank-visit' href='https://www.microsoft.com/translator' rel='nofollow noopener' target='_blank'>방문</a></li>
+    <li class='rank-card' data-modal='detail-translate-6' data-name='Flitto' data-tags='무료 플랜 크라우드 번역'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-6' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>6</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=flitto.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>F</span></span>
+      <span class='rank-info'><p class='rank-name'>Flitto</p><p class='rank-summary'>사람과 AI가 함께 번역 품질을 높이는 플랫폼</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>크라우드 번역</span></span></span>
+      <a class='rank-visit' href='https://flitto.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-7' data-name='Reverso' data-tags='무료 문맥 예문'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-7' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>7</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=reverso.net&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>R</span></span>
+      <span class='rank-info'><p class='rank-name'>Reverso</p><p class='rank-summary'>실제 문맥 속 예문을 보여주는 번역·문법 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료</span><span>문맥 예문</span></span></span>
+      <a class='rank-visit' href='https://reverso.net' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-8' data-name='Yandex Translate' data-tags='무료 다국어 지원'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-8' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>8</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=translate.yandex.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>Y</span></span>
+      <span class='rank-info'><p class='rank-name'>Yandex Translate</p><p class='rank-summary'>러시아어 포함 다양한 언어를 지원하는 번역 서비스</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>무료</span><span>다국어 지원</span></span></span>
+      <a class='rank-visit' href='https://translate.yandex.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-9' data-name='Linguee' data-tags='무료 사전형 번역'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-9' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>9</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=linguee.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>L</span></span>
+      <span class='rank-info'><p class='rank-name'>Linguee</p><p class='rank-summary'>사전과 번역 예문을 함께 제공하는 서비스</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료</span><span>사전형 번역</span></span></span>
+      <a class='rank-visit' href='https://linguee.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-10' data-name='iTranslate' data-tags='무료 플랜 여행용 번역'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-10' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>10</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=itranslate.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>i</span></span>
+      <span class='rank-info'><p class='rank-name'>iTranslate</p><p class='rank-summary'>여행 중 빠르게 쓰는 모바일 번역 앱</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>여행용 번역</span></span></span>
+      <a class='rank-visit' href='https://itranslate.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-11' data-name='SYSTRAN' data-tags='유료 기업용 번역'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-11' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>11</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=systran.net&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>S</span></span>
+      <span class='rank-info'><p class='rank-name'>SYSTRAN</p><p class='rank-summary'>기업·정부기관이 쓰는 전문 번역 엔진</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>유료</span><span>기업용 번역</span></span></span>
+      <a class='rank-visit' href='https://systran.net' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-12' data-name='Amazon Translate' data-tags='유료 API 번역'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-12' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>12</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=aws.amazon.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>A</span></span>
+      <span class='rank-info'><p class='rank-name'>Amazon Translate</p><p class='rank-summary'>개발자가 API로 연동하는 아마존의 번역 서비스</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>유료</span><span>API 번역</span></span></span>
+      <a class='rank-visit' href='https://aws.amazon.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-13' data-name='Lilt' data-tags='유료 기업 현지화'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-13' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>13</span><span class='rank-logo' style='background:#f5f3ff;color:#7c3aed'><img src='https://www.google.com/s2/favicons?domain=lilt.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>L</span></span>
+      <span class='rank-info'><p class='rank-name'>Lilt</p><p class='rank-summary'>사람 번역가와 AI가 협업하는 기업용 현지화 플랫폼</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>유료</span><span>기업 현지화</span></span></span>
+      <a class='rank-visit' href='https://lilt.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-14' data-name='Crowdin' data-tags='무료 플랜 앱 현지화'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-14' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>14</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=crowdin.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Crowdin</p><p class='rank-summary'>소프트웨어 다국어 현지화를 관리하는 협업 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>앱 현지화</span></span></span>
+      <a class='rank-visit' href='https://crowdin.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-15' data-name='DeepL Write' data-tags='무료 플랜 영문 교정'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-15' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>15</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=write.deepl.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>D</span></span>
+      <span class='rank-info'><p class='rank-name'>DeepL Write</p><p class='rank-summary'>영어 작문을 자연스럽게 다듬어주는 교정 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>영문 교정</span></span></span>
+      <a class='rank-visit' href='https://write.deepl.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-16' data-name='Wordvice AI' data-tags='무료 체험 논문 영문교정'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-16' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>16</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=wordvice.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>W</span></span>
+      <span class='rank-info'><p class='rank-name'>Wordvice AI</p><p class='rank-summary'>학술 논문에 특화된 AI 영문 교정·번역 서비스</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>논문 영문교정</span></span></span>
+      <a class='rank-visit' href='https://wordvice.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-17' data-name='Apple Translate' data-tags='무료 기기 내장'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-17' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>17</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=apple.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>A</span></span>
+      <span class='rank-info'><p class='rank-name'>Apple Translate</p><p class='rank-summary'>오프라인에서도 쓰는 애플의 번역 앱</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료</span><span>기기 내장</span></span></span>
+      <a class='rank-visit' href='https://apple.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-18' data-name='TextUnited' data-tags='유료 기업 번역관리'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-18' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>18</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=textunited.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>T</span></span>
+      <span class='rank-info'><p class='rank-name'>TextUnited</p><p class='rank-summary'>다국어 콘텐츠 번역 워크플로를 관리하는 플랫폼</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.7</span></span>
+        <span class='rank-tags'><span>유료</span><span>기업 번역관리</span></span></span>
+      <a class='rank-visit' href='https://textunited.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-19' data-name='ModernMT' data-tags='무료 오픈소스 적응형 번역'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-19' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>19</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=modernmt.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>M</span></span>
+      <span class='rank-info'><p class='rank-name'>ModernMT</p><p class='rank-summary'>사용할수록 품질이 개선되는 오픈소스 번역 엔진</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>무료 오픈소스</span><span>적응형 번역</span></span></span>
+      <a class='rank-visit' href='https://modernmt.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-translate-20' data-name='TranslatePress' data-tags='무료 플랜 웹사이트 번역'><button aria-label='즐겨찾기' class='fav-btn' data-fav='translate-20' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>20</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=translatepress.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>T</span></span>
+      <span class='rank-info'><p class='rank-name'>TranslatePress</p><p class='rank-summary'>워드프레스 사이트를 다국어로 번역하는 플러그인</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>웹사이트 번역</span></span></span>
+      <a class='rank-visit' href='https://translatepress.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
   </ul>
   <div class='ad-slot'><p class='ad-label'>광고</p>
     <ins class='adsbygoogle' style='display:block' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='fluid' data-ad-layout-key='-fb+5w+4e-db+86' data-ad-slot='0000000007'></ins>
@@ -571,6 +1366,21 @@ img{max-width:100%;display:block;}
   <div id='detail-translate-3' class='rank-detail'><h3>Google 번역</h3><p class='modal-meta'>무료</p><p>100개 이상의 언어를 지원하며, 카메라 번역·오프라인 번역 등 모바일 기능이 강력합니다.</p><a class='modal-link' href='https://translate.google.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-3'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-translate-4' class='rank-detail'><h3>ChatGPT</h3><p class='modal-meta'>무료 / Plus 월 $20</p><p>단순 번역이 아니라 "더 격식 있게", "구어체로" 같은 요청을 추가해 톤을 조절할 수 있는 것이 강점입니다.</p><a class='modal-link' href='https://chatgpt.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-4'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-translate-5' class='rank-detail'><h3>Microsoft Translator</h3><p class='modal-meta'>무료</p><p>Teams, PowerPoint 등 마이크로소프트 제품과 연동되어 실시간 회의 자막·통역에 유용합니다.</p><a class='modal-link' href='https://www.microsoft.com/translator' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-5'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-6' class='rank-detail'><h3>Flitto</h3><p class='modal-meta'>무료 / 유료 크레딧</p><p>사람과 AI가 함께 번역 품질을 높이는 크라우드소싱 기반 번역 플랫폼입니다.</p><a class='modal-link' href='https://flitto.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-6'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-7' class='rank-detail'><h3>Reverso</h3><p class='modal-meta'>무료 / 유료 플랜 있음</p><p>실제 문맥 속 예문을 함께 보여주는 번역·문법 학습 도구입니다.</p><a class='modal-link' href='https://reverso.net' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-7'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-8' class='rank-detail'><h3>Yandex Translate</h3><p class='modal-meta'>무료</p><p>러시아어를 포함한 다양한 언어를 지원하는 무료 AI 번역 서비스입니다.</p><a class='modal-link' href='https://translate.yandex.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-8'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-9' class='rank-detail'><h3>Linguee</h3><p class='modal-meta'>무료</p><p>사전과 번역 예문을 함께 제공하는 딥엘 자매 서비스입니다.</p><a class='modal-link' href='https://linguee.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-9'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-10' class='rank-detail'><h3>iTranslate</h3><p class='modal-meta'>무료 / Pro 연 $39.99부터</p><p>여행 중에도 빠르게 사용할 수 있는 모바일 중심 AI 번역 앱입니다.</p><a class='modal-link' href='https://itranslate.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-10'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-11' class='rank-detail'><h3>SYSTRAN</h3><p class='modal-meta'>문의 후 가격 책정</p><p>기업과 정부기관에서 활용하는 전문 번역 엔진을 제공하는 AI 번역 솔루션입니다.</p><a class='modal-link' href='https://systran.net' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-11'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-12' class='rank-detail'><h3>Amazon Translate</h3><p class='modal-meta'>사용량 기반 과금</p><p>개발자가 API로 손쉽게 연동할 수 있는 아마존의 AI 번역 서비스입니다.</p><a class='modal-link' href='https://aws.amazon.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-12'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-13' class='rank-detail'><h3>Lilt</h3><p class='modal-meta'>문의 후 가격 책정</p><p>사람 번역가와 AI가 협업하는 기업용 현지화 번역 플랫폼입니다.</p><a class='modal-link' href='https://lilt.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-13'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-14' class='rank-detail'><h3>Crowdin</h3><p class='modal-meta'>무료 / 유료 플랜 있음</p><p>소프트웨어와 앱의 다국어 현지화 작업을 관리해주는 AI 번역 협업 도구입니다.</p><a class='modal-link' href='https://crowdin.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-14'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-15' class='rank-detail'><h3>DeepL Write</h3><p class='modal-meta'>무료 / Pro 월 €12.99부터</p><p>딥엘이 만든 영어 작문 교정 도구로 어투와 표현을 자연스럽게 다듬어줍니다.</p><a class='modal-link' href='https://write.deepl.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-15'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-16' class='rank-detail'><h3>Wordvice AI</h3><p class='modal-meta'>무료 체험 / 유료 크레딧</p><p>학술 논문에 특화된 AI 기반 영문 교정·번역 서비스입니다.</p><a class='modal-link' href='https://wordvice.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-16'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-17' class='rank-detail'><h3>Apple Translate</h3><p class='modal-meta'>무료</p><p>아이폰에 기본 내장되어 오프라인에서도 사용할 수 있는 애플의 번역 앱입니다.</p><a class='modal-link' href='https://apple.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-17'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-18' class='rank-detail'><h3>TextUnited</h3><p class='modal-meta'>문의 후 가격 책정</p><p>기업의 다국어 콘텐츠 번역 워크플로를 관리하는 AI 번역 플랫폼입니다.</p><a class='modal-link' href='https://textunited.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-18'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-19' class='rank-detail'><h3>ModernMT</h3><p class='modal-meta'>무료 오픈소스</p><p>사용할수록 번역 품질이 개선되는 적응형 오픈소스 기계번역 엔진입니다.</p><a class='modal-link' href='https://modernmt.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-19'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-translate-20' class='rank-detail'><h3>TranslatePress</h3><p class='modal-meta'>무료 / 유료 연 $139부터</p><p>워드프레스 웹사이트를 손쉽게 다국어로 번역해주는 AI 번역 플러그인입니다.</p><a class='modal-link' href='https://translatepress.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='translate-20'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
 </section>
 <section class='cat-section' id='design'>
   <h2>디자인 AI 순위</h2>
@@ -583,7 +1393,22 @@ img{max-width:100%;display:block;}
       {"@type":"ListItem","position":2,"name":"Figma AI","url":"https://www.figma.com"},
       {"@type":"ListItem","position":3,"name":"Adobe Firefly","url":"https://firefly.adobe.com"},
       {"@type":"ListItem","position":4,"name":"Uizard","url":"https://uizard.io"},
-      {"@type":"ListItem","position":5,"name":"Looka","url":"https://looka.com"}
+      {"@type":"ListItem","position":5,"name":"Looka","url":"https://looka.com"},
+      {"@type":"ListItem","position":6,"name":"Framer AI","url":"https://framer.com"},
+      {"@type":"ListItem","position":7,"name":"Galileo AI","url":"https://usegalileo.ai"},
+      {"@type":"ListItem","position":8,"name":"Visily","url":"https://visily.ai"},
+      {"@type":"ListItem","position":9,"name":"Khroma","url":"https://khroma.co"},
+      {"@type":"ListItem","position":10,"name":"Designs.ai","url":"https://designs.ai"},
+      {"@type":"ListItem","position":11,"name":"Microsoft Designer","url":"https://designer.microsoft.com"},
+      {"@type":"ListItem","position":12,"name":"VistaCreate","url":"https://create.vista.com"},
+      {"@type":"ListItem","position":13,"name":"Brandmark","url":"https://brandmark.io"},
+      {"@type":"ListItem","position":14,"name":"Logo Diffusion","url":"https://logodiffusion.com"},
+      {"@type":"ListItem","position":15,"name":"Patterned AI","url":"https://patterned.ai"},
+      {"@type":"ListItem","position":16,"name":"Beautiful.ai","url":"https://beautiful.ai"},
+      {"@type":"ListItem","position":17,"name":"Gamma","url":"https://gamma.app"},
+      {"@type":"ListItem","position":18,"name":"Tome","url":"https://tome.app"},
+      {"@type":"ListItem","position":19,"name":"Pixlr","url":"https://pixlr.com"},
+      {"@type":"ListItem","position":20,"name":"Fotor","url":"https://fotor.com"}
     ]}
   </script>
   <ul class='rank-grid'>
@@ -612,6 +1437,111 @@ img{max-width:100%;display:block;}
         <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
         <span class='rank-tags'><span>유료</span><span>로고/브랜딩</span></span></span>
       <a class='rank-visit' href='https://looka.com' rel='nofollow noopener' target='_blank'>방문</a></li>
+    <li class='rank-card' data-modal='detail-design-6' data-name='Framer AI' data-tags='무료 플랜 웹사이트 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-6' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>6</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=framer.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>F</span></span>
+      <span class='rank-info'><p class='rank-name'>Framer AI</p><p class='rank-summary'>프롬프트로 반응형 웹사이트를 즉시 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.3</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>웹사이트 생성</span></span></span>
+      <a class='rank-visit' href='https://framer.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-7' data-name='Galileo AI' data-tags='무료 체험 UI 디자인 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-7' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>7</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=usegalileo.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>G</span></span>
+      <span class='rank-info'><p class='rank-name'>Galileo AI</p><p class='rank-summary'>텍스트 설명으로 완성된 UI 디자인을 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>UI 디자인 생성</span></span></span>
+      <a class='rank-visit' href='https://usegalileo.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-8' data-name='Visily' data-tags='무료 플랜 와이어프레임'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-8' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>8</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=visily.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>V</span></span>
+      <span class='rank-info'><p class='rank-name'>Visily</p><p class='rank-summary'>스케치로부터 와이어프레임을 자동 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>와이어프레임</span></span></span>
+      <a class='rank-visit' href='https://visily.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-9' data-name='Khroma' data-tags='무료 색상조합 추천'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-9' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>9</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=khroma.co&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>K</span></span>
+      <span class='rank-info'><p class='rank-name'>Khroma</p><p class='rank-summary'>취향을 학습해 색상 조합을 추천하는 AI</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료</span><span>색상조합 추천</span></span></span>
+      <a class='rank-visit' href='https://khroma.co' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-10' data-name='Designs.ai' data-tags='무료 체험 올인원 디자인'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-10' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>10</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=designs.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>D</span></span>
+      <span class='rank-info'><p class='rank-name'>Designs.ai</p><p class='rank-summary'>로고·영상·배너를 만드는 올인원 디자인 플랫폼</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>올인원 디자인</span></span></span>
+      <a class='rank-visit' href='https://designs.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-11' data-name='Microsoft Designer' data-tags='무료 빠른 그래픽 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-11' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>11</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=designer.microsoft.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>M</span></span>
+      <span class='rank-info'><p class='rank-name'>Microsoft Designer</p><p class='rank-summary'>프롬프트로 소셜 그래픽을 빠르게 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료</span><span>빠른 그래픽 생성</span></span></span>
+      <a class='rank-visit' href='https://designer.microsoft.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-12' data-name='VistaCreate' data-tags='무료 플랜 템플릿 디자인'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-12' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>12</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=create.vista.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>V</span></span>
+      <span class='rank-info'><p class='rank-name'>VistaCreate</p><p class='rank-summary'>템플릿 기반으로 그래픽을 빠르게 제작</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>템플릿 디자인</span></span></span>
+      <a class='rank-visit' href='https://create.vista.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-13' data-name='Brandmark' data-tags='유료 로고 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-13' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>13</span><span class='rank-logo' style='background:#f5f3ff;color:#7c3aed'><img src='https://www.google.com/s2/favicons?domain=brandmark.io&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>B</span></span>
+      <span class='rank-info'><p class='rank-name'>Brandmark</p><p class='rank-summary'>브랜드 이름만으로 로고와 가이드를 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>유료</span><span>로고 생성</span></span></span>
+      <a class='rank-visit' href='https://brandmark.io' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-14' data-name='Logo Diffusion' data-tags='무료 체험 AI 로고 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-14' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>14</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=logodiffusion.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>L</span></span>
+      <span class='rank-info'><p class='rank-name'>Logo Diffusion</p><p class='rank-summary'>생성형 AI로 독창적인 로고 디자인을 제작</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>AI 로고 생성</span></span></span>
+      <a class='rank-visit' href='https://logodiffusion.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-15' data-name='Patterned AI' data-tags='무료 체험 패턴 생성'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-15' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>15</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=patterned.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>P</span></span>
+      <span class='rank-info'><p class='rank-name'>Patterned AI</p><p class='rank-summary'>원단·배경에 쓸 반복 패턴을 자동 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.7</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>패턴 생성</span></span></span>
+      <a class='rank-visit' href='https://patterned.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-16' data-name='Beautiful.ai' data-tags='무료 체험 발표자료 디자인'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-16' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>16</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=beautiful.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>B</span></span>
+      <span class='rank-info'><p class='rank-name'>Beautiful.ai</p><p class='rank-summary'>슬라이드를 자동으로 정렬·디자인</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 체험</span><span>발표자료 디자인</span></span></span>
+      <a class='rank-visit' href='https://beautiful.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-17' data-name='Gamma' data-tags='무료 플랜 AI 프레젠테이션'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-17' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>17</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=gamma.app&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>G</span></span>
+      <span class='rank-info'><p class='rank-name'>Gamma</p><p class='rank-summary'>프롬프트로 완성도 높은 문서·PT를 생성</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.4</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>AI 프레젠테이션</span></span></span>
+      <a class='rank-visit' href='https://gamma.app' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-18' data-name='Tome' data-tags='무료 플랜 스토리텔링 PT'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-18' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>18</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=tome.app&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>T</span></span>
+      <span class='rank-info'><p class='rank-name'>Tome</p><p class='rank-summary'>스토리텔링 중심의 AI 프레젠테이션 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>스토리텔링 PT</span></span></span>
+      <a class='rank-visit' href='https://tome.app' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-19' data-name='Pixlr' data-tags='무료 플랜 브라우저 포토에디터'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-19' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>19</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=pixlr.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>P</span></span>
+      <span class='rank-info'><p class='rank-name'>Pixlr</p><p class='rank-summary'>브라우저에서 바로 쓰는 AI 사진 편집기</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>브라우저 포토에디터</span></span></span>
+      <a class='rank-visit' href='https://pixlr.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-design-20' data-name='Fotor' data-tags='무료 플랜 사진보정/디자인'><button aria-label='즐겨찾기' class='fav-btn' data-fav='design-20' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>20</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=fotor.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>F</span></span>
+      <span class='rank-info'><p class='rank-name'>Fotor</p><p class='rank-summary'>사진 보정과 그래픽 디자인을 지원하는 올인원 툴</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>사진보정/디자인</span></span></span>
+      <a class='rank-visit' href='https://fotor.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
   </ul>
   <div class='ad-slot'><p class='ad-label'>광고</p>
     <ins class='adsbygoogle' style='display:block' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='fluid' data-ad-layout-key='-fb+5w+4e-db+86' data-ad-slot='0000000008'></ins>
@@ -622,6 +1552,21 @@ img{max-width:100%;display:block;}
   <div id='detail-design-3' class='rank-detail'><h3>Adobe Firefly</h3><p class='modal-meta'>무료 플랜 / 유료 플랜</p><p>포토샵·일러스트레이터와 연동되어 디자인 작업 흐름 안에서 바로 이미지 생성과 편집이 가능합니다.</p><a class='modal-link' href='https://firefly.adobe.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-3'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-design-4' class='rank-detail'><h3>Uizard</h3><p class='modal-meta'>무료 체험 / 유료 플랜</p><p>스크린샷이나 손그림 스케치를 업로드하면 실제 동작하는 앱 UI 시안으로 바로 변환해줍니다.</p><a class='modal-link' href='https://uizard.io' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-4'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-design-5' class='rank-detail'><h3>Looka</h3><p class='modal-meta'>유료 (1회 결제형 플랜 있음)</p><p>업종과 스타일 선호도를 입력하면 수십 개의 로고 시안을 제안하고, 명함·SNS 키트까지 함께 생성합니다.</p><a class='modal-link' href='https://looka.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-5'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-6' class='rank-detail'><h3>Framer AI</h3><p class='modal-meta'>무료 / 유료 월 $5부터</p><p>프롬프트만으로 반응형 웹사이트를 즉시 생성해주는 AI 디자인·퍼블리싱 도구입니다.</p><a class='modal-link' href='https://framer.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-6'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-7' class='rank-detail'><h3>Galileo AI</h3><p class='modal-meta'>무료 체험 / 유료 플랜 있음</p><p>텍스트 설명만으로 완성된 UI 디자인을 생성해주는 AI 인터페이스 디자인 도구입니다.</p><a class='modal-link' href='https://usegalileo.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-7'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-8' class='rank-detail'><h3>Visily</h3><p class='modal-meta'>무료 / Pro 월 $24부터</p><p>스케치나 스크린샷으로부터 와이어프레임을 자동 생성하는 AI UI 디자인 도구입니다.</p><a class='modal-link' href='https://visily.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-8'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-9' class='rank-detail'><h3>Khroma</h3><p class='modal-meta'>무료</p><p>개인 취향을 학습해 무한한 색상 조합을 추천해주는 AI 컬러 팔레트 도구입니다.</p><a class='modal-link' href='https://khroma.co' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-9'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-10' class='rank-detail'><h3>Designs.ai</h3><p class='modal-meta'>무료 체험 / 월 $29부터</p><p>로고, 동영상, 배너까지 만들 수 있는 올인원 AI 디자인 플랫폼입니다.</p><a class='modal-link' href='https://designs.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-10'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-11' class='rank-detail'><h3>Microsoft Designer</h3><p class='modal-meta'>무료</p><p>프롬프트로 소셜 그래픽과 포스터를 빠르게 생성하는 마이크로소프트의 AI 디자인 도구입니다.</p><a class='modal-link' href='https://designer.microsoft.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-11'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-12' class='rank-detail'><h3>VistaCreate</h3><p class='modal-meta'>무료 / Pro 월 $10부터</p><p>수천 개의 템플릿을 기반으로 빠르게 그래픽을 제작하는 AI 디자인 툴입니다.</p><a class='modal-link' href='https://create.vista.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-12'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-13' class='rank-detail'><h3>Brandmark</h3><p class='modal-meta'>$25부터(일회성)</p><p>브랜드 이름만 입력하면 로고와 브랜드 가이드를 자동 생성해주는 AI 도구입니다.</p><a class='modal-link' href='https://brandmark.io' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-13'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-14' class='rank-detail'><h3>Logo Diffusion</h3><p class='modal-meta'>무료 체험 / 유료 크레딧</p><p>생성형 AI 기술로 독창적인 로고 디자인을 만들어주는 도구입니다.</p><a class='modal-link' href='https://logodiffusion.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-14'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-15' class='rank-detail'><h3>Patterned AI</h3><p class='modal-meta'>무료 체험 / 유료 크레딧</p><p>원단이나 배경에 쓸 반복 패턴을 자동 생성해주는 AI 디자인 도구입니다.</p><a class='modal-link' href='https://patterned.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-15'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-16' class='rank-detail'><h3>Beautiful.ai</h3><p class='modal-meta'>무료 체험 / 월 $12부터</p><p>슬라이드 디자인을 자동으로 정렬·디자인해주는 AI 프레젠테이션 제작 도구입니다.</p><a class='modal-link' href='https://beautiful.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-16'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-17' class='rank-detail'><h3>Gamma</h3><p class='modal-meta'>무료 / Plus 월 $10부터</p><p>프롬프트만으로 완성도 높은 프레젠테이션과 문서를 생성하는 AI 디자인 도구입니다.</p><a class='modal-link' href='https://gamma.app' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-17'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-18' class='rank-detail'><h3>Tome</h3><p class='modal-meta'>무료 / 유료 플랜 있음</p><p>스토리텔링 중심의 AI 기반 프레젠테이션 생성 도구입니다.</p><a class='modal-link' href='https://tome.app' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-18'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-19' class='rank-detail'><h3>Pixlr</h3><p class='modal-meta'>무료 / 유료 월 $7.99부터</p><p>브라우저에서 바로 사용할 수 있는 AI 기능 탑재 사진 편집 도구입니다.</p><a class='modal-link' href='https://pixlr.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-19'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-design-20' class='rank-detail'><h3>Fotor</h3><p class='modal-meta'>무료 / Pro 월 $8.99부터</p><p>사진 보정부터 그래픽 디자인까지 지원하는 올인원 AI 디자인 툴입니다.</p><a class='modal-link' href='https://fotor.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='design-20'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
 </section>
 
 <section class='cat-section' id='chatbot'>
@@ -635,7 +1580,22 @@ img{max-width:100%;display:block;}
       {"@type":"ListItem","position":2,"name":"Claude","url":"https://claude.ai"},
       {"@type":"ListItem","position":3,"name":"Gemini","url":"https://gemini.google.com"},
       {"@type":"ListItem","position":4,"name":"Perplexity","url":"https://www.perplexity.ai"},
-      {"@type":"ListItem","position":5,"name":"Microsoft Copilot","url":"https://copilot.microsoft.com"}
+      {"@type":"ListItem","position":5,"name":"Microsoft Copilot","url":"https://copilot.microsoft.com"},
+      {"@type":"ListItem","position":6,"name":"Grok","url":"https://grok.com"},
+      {"@type":"ListItem","position":7,"name":"Clova X","url":"https://clova-x.naver.com"},
+      {"@type":"ListItem","position":8,"name":"Poe","url":"https://poe.com"},
+      {"@type":"ListItem","position":9,"name":"Character.AI","url":"https://character.ai"},
+      {"@type":"ListItem","position":10,"name":"Qwen Chat","url":"https://chat.qwen.ai"},
+      {"@type":"ListItem","position":11,"name":"Kimi","url":"https://kimi.moonshot.cn"},
+      {"@type":"ListItem","position":12,"name":"Pi","url":"https://pi.ai"},
+      {"@type":"ListItem","position":13,"name":"You.com","url":"https://you.com"},
+      {"@type":"ListItem","position":14,"name":"Replika","url":"https://replika.com"},
+      {"@type":"ListItem","position":15,"name":"AskUp","url":"https://askup.kr"},
+      {"@type":"ListItem","position":16,"name":"Jan AI","url":"https://jan.ai"},
+      {"@type":"ListItem","position":17,"name":"LM Studio","url":"https://lmstudio.ai"},
+      {"@type":"ListItem","position":18,"name":"HuggingChat","url":"https://huggingface.co"},
+      {"@type":"ListItem","position":19,"name":"ZenoChat","url":"https://textcortex.com"},
+      {"@type":"ListItem","position":20,"name":"이루다","url":"https://iruda.ai"}
     ]}
   </script>
   <ul class='rank-grid'>
@@ -664,6 +1624,111 @@ img{max-width:100%;display:block;}
         <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.2</span></span>
         <span class='rank-tags'><span>무료</span><span>오피스 통합</span></span></span>
       <a class='rank-visit' href='https://copilot.microsoft.com' rel='nofollow noopener' target='_blank'>방문</a></li>
+    <li class='rank-card' data-modal='detail-chatbot-6' data-name='Grok' data-tags='무료 플랜 X 연동'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-6' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>6</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=grok.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>G</span></span>
+      <span class='rank-info'><p class='rank-name'>Grok</p><p class='rank-summary'>X와 연동되어 실시간 정보에 강한 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>X 연동</span></span></span>
+      <a class='rank-visit' href='https://grok.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-7' data-name='Clova X' data-tags='무료 네이버 검색연동'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-7' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>7</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=clova-x.naver.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Clova X</p><p class='rank-summary'>네이버 검색 데이터를 기반으로 답변하는 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료</span><span>네이버 검색연동</span></span></span>
+      <a class='rank-visit' href='https://clova-x.naver.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-8' data-name='Poe' data-tags='무료 플랜 멀티모델'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-8' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>8</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=poe.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>P</span></span>
+      <span class='rank-info'><p class='rank-name'>Poe</p><p class='rank-summary'>여러 AI 모델을 골라 쓰는 챗봇 플랫폼</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.1</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>멀티모델</span></span></span>
+      <a class='rank-visit' href='https://poe.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-9' data-name='Character.AI' data-tags='무료 플랜 캐릭터 대화'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-9' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>9</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=character.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>C</span></span>
+      <span class='rank-info'><p class='rank-name'>Character.AI</p><p class='rank-summary'>캐릭터와 롤플레이 대화를 나누는 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>캐릭터 대화</span></span></span>
+      <a class='rank-visit' href='https://character.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-10' data-name='Qwen Chat' data-tags='무료 알리바바 AI'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-10' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>10</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=chat.qwen.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>Q</span></span>
+      <span class='rank-info'><p class='rank-name'>Qwen Chat</p><p class='rank-summary'>다국어 지원, 코딩과 추론에 강한 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료</span><span>알리바바 AI</span></span></span>
+      <a class='rank-visit' href='https://chat.qwen.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-11' data-name='Kimi' data-tags='무료 장문맥락 처리'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-11' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>11</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=kimi.moonshot.cn&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>K</span></span>
+      <span class='rank-info'><p class='rank-name'>Kimi</p><p class='rank-summary'>초장문 컨텍스트를 지원하는 AI 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료</span><span>장문맥락 처리</span></span></span>
+      <a class='rank-visit' href='https://kimi.moonshot.cn' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-12' data-name='Pi' data-tags='무료 감성 대화'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-12' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>12</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=pi.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>P</span></span>
+      <span class='rank-info'><p class='rank-name'>Pi</p><p class='rank-summary'>공감과 정서적 대화에 특화된 개인용 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료</span><span>감성 대화</span></span></span>
+      <a class='rank-visit' href='https://pi.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-13' data-name='You.com' data-tags='무료 플랜 AI 검색챗봇'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-13' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>13</span><span class='rank-logo' style='background:#f5f3ff;color:#7c3aed'><img src='https://www.google.com/s2/favicons?domain=you.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>Y</span></span>
+      <span class='rank-info'><p class='rank-name'>You.com</p><p class='rank-summary'>검색과 챗봇 기능을 결합한 AI 어시스턴트</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>AI 검색챗봇</span></span></span>
+      <a class='rank-visit' href='https://you.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-14' data-name='Replika' data-tags='무료 플랜 AI 친구'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-14' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>14</span><span class='rank-logo' style='background:#fefce8;color:#ca8a04'><img src='https://www.google.com/s2/favicons?domain=replika.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>R</span></span>
+      <span class='rank-info'><p class='rank-name'>Replika</p><p class='rank-summary'>개인 맞춤형 AI 친구와 대화하는 챗봇 앱</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>AI 친구</span></span></span>
+      <a class='rank-visit' href='https://replika.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-15' data-name='AskUp' data-tags='무료 카카오톡 챗봇'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-15' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>15</span><span class='rank-logo' style='background:#eff6ff;color:#2563eb'><img src='https://www.google.com/s2/favicons?domain=askup.kr&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>A</span></span>
+      <span class='rank-info'><p class='rank-name'>AskUp</p><p class='rank-summary'>카카오톡에서 바로 쓰는 한국어 AI 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>4.0</span></span>
+        <span class='rank-tags'><span>무료</span><span>카카오톡 챗봇</span></span></span>
+      <a class='rank-visit' href='https://askup.kr' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-16' data-name='Jan AI' data-tags='무료 오픈소스 로컬 실행'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-16' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>16</span><span class='rank-logo' style='background:#fef2f2;color:#dc2626'><img src='https://www.google.com/s2/favicons?domain=jan.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>J</span></span>
+      <span class='rank-info'><p class='rank-name'>Jan AI</p><p class='rank-summary'>인터넷 없이 로컬로 실행하는 오픈소스 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>무료 오픈소스</span><span>로컬 실행</span></span></span>
+      <a class='rank-visit' href='https://jan.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-17' data-name='LM Studio' data-tags='무료 로컬모델 실행'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-17' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>17</span><span class='rank-logo' style='background:#eef2ff;color:#3d6bff'><img src='https://www.google.com/s2/favicons?domain=lmstudio.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>L</span></span>
+      <span class='rank-info'><p class='rank-name'>LM Studio</p><p class='rank-summary'>오픈소스 LLM을 내 컴퓨터에서 실행하는 도구</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.9</span></span>
+        <span class='rank-tags'><span>무료</span><span>로컬모델 실행</span></span></span>
+      <a class='rank-visit' href='https://lmstudio.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-18' data-name='HuggingChat' data-tags='무료 오픈소스 오픈모델 모음'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-18' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>18</span><span class='rank-logo' style='background:#fdf2f8;color:#db2777'><img src='https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>H</span></span>
+      <span class='rank-info'><p class='rank-name'>HuggingChat</p><p class='rank-summary'>여러 오픈소스 모델을 무료로 체험하는 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>무료 오픈소스</span><span>오픈모델 모음</span></span></span>
+      <a class='rank-visit' href='https://huggingface.co' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-19' data-name='ZenoChat' data-tags='무료 플랜 비즈니스 챗봇'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-19' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>19</span><span class='rank-logo' style='background:#ecfdf5;color:#059669'><img src='https://www.google.com/s2/favicons?domain=textcortex.com&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>Z</span></span>
+      <span class='rank-info'><p class='rank-name'>ZenoChat</p><p class='rank-summary'>비즈니스 문서 작성과 대화를 지원하는 챗봇</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.7</span></span>
+        <span class='rank-tags'><span>무료 플랜</span><span>비즈니스 챗봇</span></span></span>
+      <a class='rank-visit' href='https://textcortex.com' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
+    <li class='rank-card' data-modal='detail-chatbot-20' data-name='이루다' data-tags='무료 한국형 감성챗봇'><button aria-label='즐겨찾기' class='fav-btn' data-fav='chatbot-20' onclick='event.stopPropagation()' type='button'>☆</button>
+      <span class='rank-num'>20</span><span class='rank-logo' style='background:#fff7ed;color:#ea580c'><img src='https://www.google.com/s2/favicons?domain=iruda.ai&amp;sz=64' alt='' loading='lazy' onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/><span class='rank-logo-fallback'>이</span></span>
+      <span class='rank-info'><p class='rank-name'>이루다</p><p class='rank-summary'>한국어 감성 대화에 특화된 챗봇 서비스</p>
+        <span class='rank-rating'><span class='star'>★★★★☆</span><span class='score'>3.8</span></span>
+        <span class='rank-tags'><span>무료</span><span>한국형 감성챗봇</span></span></span>
+      <a class='rank-visit' href='https://iruda.ai' rel='nofollow noopener' target='_blank'>방문</a>
+    </li>
   </ul>
   <div class='ad-slot'><p class='ad-label'>광고</p>
     <ins class='adsbygoogle' style='display:block' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='fluid' data-ad-layout-key='-fb+5w+4e-db+86' data-ad-slot='0000000009'></ins>
@@ -674,6 +1739,21 @@ img{max-width:100%;display:block;}
   <div id='detail-chatbot-3' class='rank-detail'><h3>Gemini</h3><p class='modal-meta'>무료 / Advanced 월 $19.99</p><p>구글 계정 기반으로 지메일, 캘린더, 문서 등을 함께 다룰 수 있어 구글 생태계 사용자에게 유리합니다.</p><a class='modal-link' href='https://gemini.google.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-3'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-chatbot-4' class='rank-detail'><h3>Perplexity</h3><p class='modal-meta'>무료 / Pro 월 $20</p><p>검색 결과처럼 답변마다 출처 링크를 보여줘 사실 확인이 중요한 검색·리서치 용도에 적합합니다.</p><a class='modal-link' href='https://www.perplexity.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-4'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
   <div id='detail-chatbot-5' class='rank-detail'><h3>Microsoft Copilot</h3><p class='modal-meta'>무료 (오피스 통합 유료 플랜 있음)</p><p>윈도우 작업표시줄과 오피스 앱 안에서 바로 호출할 수 있어 회사 업무 환경에서 접근성이 좋습니다.</p><a class='modal-link' href='https://copilot.microsoft.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-5'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-6' class='rank-detail'><h3>Grok</h3><p class='modal-meta'>무료 / Premium 구독 포함</p><p>X(트위터)와 연동되어 실시간 정보에 강한 일론 머스크의 AI 챗봇입니다.</p><a class='modal-link' href='https://grok.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-6'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-7' class='rank-detail'><h3>Clova X</h3><p class='modal-meta'>무료</p><p>네이버 검색 데이터를 기반으로 답변하는 네이버의 한국어 AI 챗봇입니다.</p><a class='modal-link' href='https://clova-x.naver.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-7'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-8' class='rank-detail'><h3>Poe</h3><p class='modal-meta'>무료 / Pro 월 $20부터</p><p>여러 AI 모델을 한 곳에서 골라 사용할 수 있는 챗봇 플랫폼입니다.</p><a class='modal-link' href='https://poe.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-8'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-9' class='rank-detail'><h3>Character.AI</h3><p class='modal-meta'>무료 / c.ai+ 월 $9.99부터</p><p>다양한 캐릭터와 롤플레이 대화를 나눌 수 있는 AI 챗봇 플랫폼입니다.</p><a class='modal-link' href='https://character.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-9'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-10' class='rank-detail'><h3>Qwen Chat</h3><p class='modal-meta'>무료</p><p>알리바바가 개발한 다국어 지원 AI 챗봇으로 코딩과 추론에 강점이 있습니다.</p><a class='modal-link' href='https://chat.qwen.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-10'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-11' class='rank-detail'><h3>Kimi</h3><p class='modal-meta'>무료</p><p>긴 문서를 한 번에 읽고 처리할 수 있는 초장문 컨텍스트 지원 AI 챗봇입니다.</p><a class='modal-link' href='https://kimi.moonshot.cn' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-11'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-12' class='rank-detail'><h3>Pi</h3><p class='modal-meta'>무료</p><p>공감과 정서적 대화에 특화된 인플렉션 AI의 개인용 챗봇입니다.</p><a class='modal-link' href='https://pi.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-12'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-13' class='rank-detail'><h3>You.com</h3><p class='modal-meta'>무료 / Pro 월 $15부터</p><p>검색과 챗봇 기능을 결합한 AI 어시스턴트 플랫폼입니다.</p><a class='modal-link' href='https://you.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-13'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-14' class='rank-detail'><h3>Replika</h3><p class='modal-meta'>무료 / Pro 연 $69.99부터</p><p>개인 맞춤형 AI 친구와 대화하며 정서적 교감을 나눌 수 있는 챗봇 앱입니다.</p><a class='modal-link' href='https://replika.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-14'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-15' class='rank-detail'><h3>AskUp</h3><p class='modal-meta'>무료</p><p>카카오톡에서 바로 사용할 수 있는 업스테이지의 한국어 AI 챗봇입니다.</p><a class='modal-link' href='https://askup.kr' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-15'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-16' class='rank-detail'><h3>Jan AI</h3><p class='modal-meta'>무료 오픈소스</p><p>인터넷 연결 없이 내 컴퓨터에서 로컬로 실행할 수 있는 오픈소스 AI 챗봇입니다.</p><a class='modal-link' href='https://jan.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-16'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-17' class='rank-detail'><h3>LM Studio</h3><p class='modal-meta'>무료</p><p>다양한 오픈소스 LLM을 내 컴퓨터에서 손쉽게 실행해주는 로컬 AI 챗봇 도구입니다.</p><a class='modal-link' href='https://lmstudio.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-17'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-18' class='rank-detail'><h3>HuggingChat</h3><p class='modal-meta'>무료 오픈소스</p><p>여러 오픈소스 AI 모델을 무료로 체험할 수 있는 허깅페이스의 챗봇 서비스입니다.</p><a class='modal-link' href='https://huggingface.co' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-18'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-19' class='rank-detail'><h3>ZenoChat</h3><p class='modal-meta'>무료 / 유료 플랜 있음</p><p>비즈니스 문서 작성과 대화를 함께 지원하는 AI 챗봇 어시스턴트입니다.</p><a class='modal-link' href='https://textcortex.com' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-19'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
+  <div id='detail-chatbot-20' class='rank-detail'><h3>이루다</h3><p class='modal-meta'>무료</p><p>한국어 감성 대화에 특화된 스캐터랩의 AI 챗봇 서비스입니다.</p><a class='modal-link' href='https://iruda.ai' rel='nofollow noopener' target='_blank'>공식 홈페이지 방문</a><div><button class='helpful-btn' data-id='chatbot-20'>도움이 됐어요 (<span class='count'>0</span>)</button></div></div>
 </section>
 
   </div>
