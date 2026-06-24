@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:lang='data:blog.locale.language' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1, viewport-fit=cover' name='viewport'/>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<b:if cond='data:blog.pageType == "index"'>
+  <title><data:blog.title/> | 카테고리별 AI 순위 모음</title>
+  <meta content='글쓰기, 이미지, 영상, 코딩, 음성, 번역, 디자인, 챗봇 등 카테고리별로 AI 툴 순위를 한눈에 비교하세요.' name='description'/>
+<b:else/>
+  <b:if cond='data:blog.pageName'>
+    <title><data:blog.pageName/> AI 순위 - <data:blog.title/></title>
+  <b:else/>
+    <title><data:blog.pageTitle/></title>
+  </b:if>
+  <b:if cond='data:blog.metaDescription'>
+    <meta expr:content='data:blog.metaDescription' name='description'/>
+  <b:else/>
+    <meta content='카테고리별 AI 툴 순위와 추천 정보를 제공합니다.' name='description'/>
+  </b:if>
+</b:if>
+<link expr:href='data:blog.canonicalUrl' rel='canonical'/>
+<meta content='website' property='og:type'/>
+<meta expr:content='data:blog.pageTitle' property='og:title'/>
+<meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+<meta content='summary_large_image' name='twitter:card'/>
+<b:if cond='data:blog.pageType != "item"'>
+  <meta content='noindex' name='dummy'/>
+</b:if>
+<b:include data='blog' name='all-head-content'/>
+
+<!-- 사이트 전체 구조화 데이터(JSON-LD) - 검색결과 노출에 도움 -->
+<script type='application/ld+json'>
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "<data:blog.title/>",
+  "url": "<data:blog.homepageUrl/>",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "<data:blog.homepageUrl/>search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<b:skin><![CDATA[
+:root{
+  --color-bg:#ffffff;
+  --color-bg-soft:#f7f8fa;
+  --color-border:#e7e9ec;
+  --color-text:#1b1d21;
+  --color-text-soft:#6b7280;
+  --color-point:#3d6bff;
+  --color-point-soft:#eef2ff;
+  --radius:14px;
+  --max-width:1180px;
+  font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR",sans-serif;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--color-bg);color:var(--color-text);line-height:1.55;}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.wrap{max-width:var(--max-width);margin:0 auto;padding:0 20px;}
+
+/* Header */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--color-border);}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px;}
+.site-title{font-size:20px;font-weight:800;letter-spacing:-.02em;}
+.site-title a{color:var(--color-text);}
+.site-title .point{color:var(--color-point);}
+#PageList1{overflow-x:auto;}
+#PageList1 ul{list-style:none;display:flex;gap:18px;margin:0;padding:0;}
+#PageList1 a{font-size:14px;font-weight:600;color:var(--color-text-soft);padding:8px 2px;white-space:nowrap;}
+#PageList1 a:hover{color:var(--color-point);}
+
+/* Hero */
+.hero{padding:48px 0 28px;text-align:center;}
+.hero h1{font-size:30px;font-weight:800;margin:0 0 10px;letter-spacing:-.02em;}
+.hero p{color:var(--color-text-soft);font-size:15px;margin:0;}
+
+/* Category grid (homepage) */
+.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding:8px 0 40px;}
+.cat-card{display:flex;flex-direction:column;align-items:center;gap:8px;padding:22px 10px;background:var(--color-bg-soft);border:1px solid var(--color-border);border-radius:var(--radius);transition:transform .15s,border-color .15s;}
+.cat-card:hover{transform:translateY(-3px);border-color:var(--color-point);}
+.cat-card .emoji{font-size:28px;}
+.cat-card .name{font-weight:700;font-size:14px;}
+.cat-card .desc{font-size:12px;color:var(--color-text-soft);}
+
+/* Layout: main + sidebar */
+.body-layout{display:flex;gap:32px;align-items:flex-start;max-width:var(--max-width);margin:0 auto;padding:0 20px 60px;}
+.main-col{flex:1;min-width:0;}
+.side-col{width:300px;flex-shrink:0;}
+@media (max-width:980px){.side-col{display:none;}}
+
+/* Ranking list */
+.rank-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;}
+.rank-card{display:grid;grid-template-columns:40px 56px 1fr auto;align-items:center;gap:14px;padding:16px;border:1px solid var(--color-border);border-radius:var(--radius);background:var(--color-bg);cursor:pointer;transition:box-shadow .15s,border-color .15s;}
+.rank-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.06);border-color:var(--color-point);}
+.rank-num{font-size:18px;font-weight:800;color:var(--color-point);text-align:center;}
+.rank-logo{width:56px;height:56px;border-radius:12px;background:var(--color-point-soft);display:flex;align-items:center;justify-content:center;font-size:22px;overflow:hidden;}
+.rank-info .rank-name{font-weight:700;font-size:15px;margin:0 0 2px;}
+.rank-info .rank-summary{font-size:13px;color:var(--color-text-soft);margin:0;}
+.rank-tags{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap;}
+.rank-tags span{font-size:11px;background:var(--color-bg-soft);color:var(--color-text-soft);border-radius:6px;padding:2px 7px;}
+.rank-visit{font-size:13px;font-weight:700;color:var(--color-point);border:1px solid var(--color-point);border-radius:8px;padding:8px 14px;white-space:nowrap;}
+
+/* Modal */
+.modal-overlay{position:fixed;inset:0;background:rgba(17,17,20,.55);display:none;align-items:center;justify-content:center;z-index:200;padding:20px;}
+.modal-overlay.open{display:flex;}
+.modal-box{background:#fff;border-radius:18px;max-width:520px;width:100%;max-height:85vh;overflow-y:auto;padding:28px;position:relative;}
+.modal-box .modal-close{position:absolute;top:14px;right:16px;background:none;border:none;font-size:20px;cursor:pointer;color:var(--color-text-soft);}
+.modal-box h3{margin:4px 0 6px;font-size:19px;}
+.modal-box .modal-meta{font-size:13px;color:var(--color-text-soft);margin-bottom:14px;}
+.modal-box .modal-link{display:inline-block;margin-top:14px;background:var(--color-point);color:#fff;font-weight:700;font-size:14px;padding:10px 18px;border-radius:10px;}
+.rank-detail{display:none;}
+
+/* Ad slots */
+.ad-slot{margin:24px 0;text-align:center;}
+.ad-slot .ad-label{font-size:11px;color:var(--color-text-soft);margin-bottom:6px;letter-spacing:.05em;}
+.ad-sidebar{position:sticky;top:84px;}
+.ad-mobile-only{display:none;}
+@media (max-width:980px){.ad-mobile-only{display:block;} .ad-desktop-only{display:none;}}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--color-border);padding:32px 0;margin-top:20px;background:var(--color-bg-soft);}
+.site-footer .wrap{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center;}
+.site-footer p{font-size:12px;color:var(--color-text-soft);margin:0;}
+
+@media (max-width:680px){
+  .cat-grid{grid-template-columns:repeat(2,1fr);}
+  .rank-card{grid-template-columns:28px 44px 1fr;}
+  .rank-visit{grid-column:1/-1;justify-self:start;margin-top:4px;}
+}
+]]></b:skin>
+</head>
+<body>
+
+<header class='site-header'>
+  <div class='wrap'>
+    <div class='site-title'>
+      <b:section id='header' maxwidgets='1' showaddelement='no'>
+        <b:widget id='Header1' locked='true' title='AI랭킹닷컴' type='Header' version='2'>
+          <b:includable id='main'>
+            <a expr:href='data:blog.homepageUrl'><span class='point'>AI</span>랭킹닷컴</a>
+          </b:includable>
+        </b:widget>
+      </b:section>
+    </div>
+    <nav>
+      <b:section id='nav' maxwidgets='1' showaddelement='no'>
+        <b:widget id='PageList1' locked='false' title='카테고리' type='PageList' version='2'>
+          <b:includable id='main'>
+            <b:if cond='data:links any l => l.isCurrentPage'></b:if>
+            <ul>
+              <li><a expr:href='data:blog.homepageUrl'>홈</a></li>
+              <b:loop values='data:links' var='link'>
+                <li><a expr:href='link.href'><data:link.name/></a></li>
+              </b:loop>
+            </ul>
+          </b:includable>
+        </b:widget>
+      </b:section>
+    </nav>
+  </div>
+</header>
+
+<b:section id='hero' maxwidgets='1' showaddelement='no'>
+<b:widget id='HTML1' locked='false' title='소개' type='HTML' version='2'>
+  <b:includable id='main'>
+    <b:if cond='data:blog.pageType == "index" and data:blog.url == data:blog.homepageUrl'>
+    <div class='hero wrap'>
+      <h1><data:title/></h1>
+      <div><data:content/></div>
+    </div>
+    </b:if>
+  </b:includable>
+</b:widget>
+</b:section>
+
+<b:section id='category-grid' maxwidgets='1' showaddelement='no'>
+<b:widget id='HTML2' locked='false' title='카테고리 모음' type='HTML' version='2'>
+  <b:includable id='main'>
+    <b:if cond='data:blog.pageType == "index" and data:blog.url == data:blog.homepageUrl'>
+    <div class='wrap'>
+      <data:content/>
+    </div>
+    </b:if>
+  </b:includable>
+</b:widget>
+</b:section>
+
+<div class='body-layout'>
+  <div class='main-col'>
+    <b:section id='main' showaddelement='no'>
+      <b:widget id='Blog1' locked='true' title='블로그' type='Blog' version='2'>
+        <b:includable id='main' var='top'>
+          <div class='blog-posts'>
+            <b:loop values='data:top.posts' var='post'>
+              <b:include data='post' name='post'/>
+            </b:loop>
+          </div>
+        </b:includable>
+        <b:includable id='post' var='post'>
+          <article class='post-body'>
+            <b:if cond='data:post.isPage'>
+              <data:post.body/>
+            <b:else/>
+              <h2><a expr:href='data:post.url'><data:post.title/></a></h2>
+              <data:post.body/>
+            </b:if>
+          </article>
+        </b:includable>
+      </b:widget>
+    </b:section>
+  </div>
+
+  <aside class='side-col'>
+    <b:section id='sidebar' showaddelement='no'>
+      <b:widget id='HTML3' locked='false' title='사이드바 광고' type='HTML' version='2'>
+        <b:includable id='main'>
+          <div class='ad-slot ad-sidebar ad-desktop-only'>
+            <p class='ad-label'>광고</p>
+            <!-- 데스크탑 사이드바 애드센스: 아래 ins 태그의 data-ad-client / data-ad-slot 값을 본인 애드센스 코드로 교체하세요 -->
+            <ins class='adsbygoogle' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='auto' data-ad-slot='0000000000' style='display:block'/>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
+        </b:includable>
+      </b:widget>
+    </b:section>
+  </aside>
+</div>
+
+<footer class='site-footer'>
+  <div class='wrap'>
+    <b:section id='footer' maxwidgets='1' showaddelement='no'>
+      <b:widget id='HTML4' locked='false' title='푸터' type='HTML' version='2'>
+        <b:includable id='main'>
+          <div class='ad-slot' style='max-width:728px;width:100%;margin:0 auto 18px;'>
+            <p class='ad-label'>광고</p>
+            <!-- 하단 공용 애드센스: 본인 코드로 교체 -->
+            <ins class='adsbygoogle' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='auto' data-ad-slot='0000000001' style='display:block'/>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
+          <data:content/>
+          <p>© <data:blog.title/>. All rights reserved.</p>
+        </b:includable>
+      </b:widget>
+    </b:section>
+  </div>
+</footer>
+
+<!-- 애드센스 스크립트: 본인 ca-pub ID로 교체 후 한 번만 추가 -->
+<script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX'/>
+
+<script>
+//<![CDATA[
+document.addEventListener('click', function(e){
+  var card = e.target.closest('.rank-card');
+  if(card){
+    var id = card.getAttribute('data-modal');
+    var detail = document.getElementById(id);
+    var overlay = document.getElementById('rank-modal-overlay');
+    if(detail && overlay){
+      overlay.querySelector('.modal-box').innerHTML = detail.innerHTML + '<button class="modal-close" aria-label="닫기">×</button>';
+      overlay.classList.add('open');
+    }
+  }
+  if(e.target.classList.contains('modal-close') || e.target.id === 'rank-modal-overlay'){
+    var ov = document.getElementById('rank-modal-overlay');
+    if(ov) ov.classList.remove('open');
+  }
+});
+//]]>
+</script>
+<div class='modal-overlay' id='rank-modal-overlay'><div class='modal-box'></div></div>
+
+<b:section id='footer-scripts' showaddelement='yes'/>
+
+</body>
+</html>
