@@ -1822,22 +1822,31 @@ img{max-width:100%;display:block;}
 
 <script>
 //<![CDATA[
+var HELPFUL_NAMESPACE = 'airanking-com-helpful';
+function helpfulCountUrl(action, id, amount){
+  var base = 'https://api.countapi.xyz/' + action + '/' + HELPFUL_NAMESPACE + '/' + id;
+  return amount ? base + '?amount=' + amount : base;
+}
 document.addEventListener('click', function(e){
   var helpfulBtn = e.target.closest('.helpful-btn');
   if(helpfulBtn){
     e.stopPropagation();
-    var key = 'helpful_' + helpfulBtn.getAttribute('data-id');
+    var id = helpfulBtn.getAttribute('data-id');
+    var key = 'helpful_' + id;
     var voted = localStorage.getItem(key) === '1';
     var countEl = helpfulBtn.querySelector('.count');
-    var count = parseInt(countEl.textContent, 10) || 0;
     if(voted){
       localStorage.removeItem(key);
       helpfulBtn.classList.remove('voted');
-      countEl.textContent = Math.max(0, count - 1);
+      fetch(helpfulCountUrl('update', id, -1)).then(function(r){ return r.json(); }).then(function(data){
+        countEl.textContent = Math.max(0, data.value);
+      }).catch(function(){});
     } else {
       localStorage.setItem(key, '1');
       helpfulBtn.classList.add('voted');
-      countEl.textContent = count + 1;
+      fetch(helpfulCountUrl('hit', id)).then(function(r){ return r.json(); }).then(function(data){
+        countEl.textContent = data.value;
+      }).catch(function(){});
     }
     return;
   }
@@ -1851,8 +1860,13 @@ document.addEventListener('click', function(e){
       overlay.classList.add('open');
       var newBtn = overlay.querySelector('.helpful-btn');
       if(newBtn){
-        var k = 'helpful_' + newBtn.getAttribute('data-id');
+        var dataId = newBtn.getAttribute('data-id');
+        var k = 'helpful_' + dataId;
         if(localStorage.getItem(k) === '1') newBtn.classList.add('voted');
+        var countEl = newBtn.querySelector('.count');
+        fetch(helpfulCountUrl('get', dataId)).then(function(r){ return r.json(); }).then(function(data){
+          if(data && typeof data.value === 'number') countEl.textContent = data.value;
+        }).catch(function(){});
       }
     }
   }
