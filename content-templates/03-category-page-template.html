@@ -6,6 +6,8 @@
   4. 카테고리당 보통 5~10개 항목을 추천합니다(너무 적으면 콘텐츠가 빈약해 보이고, 너무 많으면 페이지가 길어집니다)
   5. 항목이 5개 넘어가면 중간에 들어간 인피드 광고 위치(아래 표시)를 그대로 두세요
   6. 페이지 게시 후 주소(/p/xxxx.html)를 복사해서 홈 카테고리 카드(02-category-grid-widget.html)의 href와 메뉴에 연결하세요
+  7. 별점(rank-rating)은 표시용 숫자만 바꾸면 되고, "도움이 됐어요" 버튼은 클릭 수를 방문자 브라우저에만 저장합니다(서버가 없는 Blogger 특성상 모든 방문자 공통 집계는 불가능합니다 - 참고만 하세요)
+  8. 제휴(Affiliate) 링크를 쓰는 항목은 방문 버튼의 rel 값을 "nofollow noopener" → "sponsored noopener"로 바꾸세요
 -->
 
 <!-- 검색결과에 순위 콘텐츠로 인식되도록 돕는 구조화 데이터. 항목 추가/삭제 시 아래 JSON도 함께 수정하세요 -->
@@ -33,6 +35,7 @@
     <span class="rank-info">
       <p class="rank-name">[툴이름1]</p>
       <p class="rank-summary">[한줄 요약]</p>
+      <span class="rank-rating"><span class="star">★★★★★</span><span class="score">[4.8]</span></span>
       <span class="rank-tags"><span>[태그1]</span><span>[태그2]</span></span>
     </span>
     <a class="rank-visit" href="[공식홈페이지1]" rel="nofollow noopener" target="_blank">방문</a>
@@ -45,6 +48,7 @@
     <span class="rank-info">
       <p class="rank-name">[툴이름2]</p>
       <p class="rank-summary">[한줄 요약]</p>
+      <span class="rank-rating"><span class="star">★★★★★</span><span class="score">[4.6]</span></span>
       <span class="rank-tags"><span>[태그1]</span><span>[태그2]</span></span>
     </span>
     <a class="rank-visit" href="[공식홈페이지2]" rel="nofollow noopener" target="_blank">방문</a>
@@ -57,6 +61,7 @@
     <span class="rank-info">
       <p class="rank-name">[툴이름3]</p>
       <p class="rank-summary">[한줄 요약]</p>
+      <span class="rank-rating"><span class="star">★★★★☆</span><span class="score">[4.3]</span></span>
       <span class="rank-tags"><span>[태그1]</span><span>[태그2]</span></span>
     </span>
     <a class="rank-visit" href="[공식홈페이지3]" rel="nofollow noopener" target="_blank">방문</a>
@@ -69,6 +74,7 @@
     <span class="rank-info">
       <p class="rank-name">[툴이름4]</p>
       <p class="rank-summary">[한줄 요약]</p>
+      <span class="rank-rating"><span class="star">★★★★☆</span><span class="score">[4.1]</span></span>
       <span class="rank-tags"><span>[태그1]</span><span>[태그2]</span></span>
     </span>
     <a class="rank-visit" href="[공식홈페이지4]" rel="nofollow noopener" target="_blank">방문</a>
@@ -81,6 +87,7 @@
     <span class="rank-info">
       <p class="rank-name">[툴이름5]</p>
       <p class="rank-summary">[한줄 요약]</p>
+      <span class="rank-rating"><span class="star">★★★☆☆</span><span class="score">[3.9]</span></span>
       <span class="rank-tags"><span>[태그1]</span><span>[태그2]</span></span>
     </span>
     <a class="rank-visit" href="[공식홈페이지5]" rel="nofollow noopener" target="_blank">방문</a>
@@ -103,28 +110,39 @@
   <p class="modal-meta">[가격 정보, 예: 무료 / 월 $20부터]</p>
   <p>[상세 설명 3~5줄: 주요 기능, 장점, 어떤 사람에게 추천하는지 등]</p>
   <a class="modal-link" href="[공식홈페이지1]" rel="nofollow noopener" target="_blank">공식 홈페이지 방문</a>
+  <p style="margin-top:14px;"><button class="helpful-btn" data-id="writing-1">👍 도움이 됐어요 (<span class="count">0</span>)</button></p>
 </div>
 <div id="detail-2" class="rank-detail">
   <h3>[툴이름2]</h3>
   <p class="modal-meta">[가격 정보]</p>
   <p>[상세 설명]</p>
   <a class="modal-link" href="[공식홈페이지2]" rel="nofollow noopener" target="_blank">공식 홈페이지 방문</a>
+  <p style="margin-top:14px;"><button class="helpful-btn" data-id="writing-2">👍 도움이 됐어요 (<span class="count">0</span>)</button></p>
 </div>
 <div id="detail-3" class="rank-detail">
   <h3>[툴이름3]</h3>
   <p class="modal-meta">[가격 정보]</p>
   <p>[상세 설명]</p>
   <a class="modal-link" href="[공식홈페이지3]" rel="nofollow noopener" target="_blank">공식 홈페이지 방문</a>
+  <p style="margin-top:14px;"><button class="helpful-btn" data-id="writing-3">👍 도움이 됐어요 (<span class="count">0</span>)</button></p>
 </div>
 <div id="detail-4" class="rank-detail">
   <h3>[툴이름4]</h3>
   <p class="modal-meta">[가격 정보]</p>
   <p>[상세 설명]</p>
   <a class="modal-link" href="[공식홈페이지4]" rel="nofollow noopener" target="_blank">공식 홈페이지 방문</a>
+  <p style="margin-top:14px;"><button class="helpful-btn" data-id="writing-4">👍 도움이 됐어요 (<span class="count">0</span>)</button></p>
 </div>
 <div id="detail-5" class="rank-detail">
   <h3>[툴이름5]</h3>
   <p class="modal-meta">[가격 정보]</p>
   <p>[상세 설명]</p>
   <a class="modal-link" href="[공식홈페이지5]" rel="nofollow noopener" target="_blank">공식 홈페이지 방문</a>
+  <p style="margin-top:14px;"><button class="helpful-btn" data-id="writing-5">👍 도움이 됐어요 (<span class="count">0</span>)</button></p>
 </div>
+
+<!--
+  중요: data-id="writing-1" 의 "writing" 부분은 카테고리마다 고유하게 바꾸세요
+  예) 이미지 페이지는 "image-1","image-2"... / 영상은 "video-1"... 식으로
+  카테고리별로 다르게 해야 "도움이 됐어요" 집계가 항목별로 정확히 구분됩니다
+-->

@@ -24,6 +24,11 @@
 <meta content='website' property='og:type'/>
 <meta expr:content='data:blog.pageTitle' property='og:title'/>
 <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+<b:if cond='data:view.featuredImage and data:view.featuredImage.isRequestedSize'>
+  <meta expr:content='resizeImage(data:view.featuredImage, 1200, "1200:630")' property='og:image'/>
+<b:else/>
+  <meta expr:content='data:view.bgImage' property='og:image'/>
+</b:if>
 <meta content='summary_large_image' name='twitter:card'/>
 <b:if cond='data:blog.pageType != "item"'>
   <meta content='noindex' name='dummy'/>
@@ -128,6 +133,30 @@ img{max-width:100%;display:block;}
 .site-footer .wrap{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center;}
 .site-footer p{font-size:12px;color:var(--color-text-soft);margin:0;}
 
+/* Search */
+.site-search{display:flex;align-items:center;background:var(--color-bg-soft);border:1px solid var(--color-border);border-radius:10px;padding:4px 4px 4px 12px;}
+.site-search input{border:none;background:none;font-size:13px;outline:none;width:120px;}
+.site-search button{border:none;background:none;cursor:pointer;font-size:14px;padding:6px 10px;}
+@media (max-width:680px){.site-search input{width:80px;}}
+
+/* Popular TOP section */
+.popular-section{padding:8px 0 36px;}
+.popular-section h2{font-size:20px;font-weight:800;margin:0 0 14px;}
+
+/* Tag list */
+.tag-list{display:flex;flex-wrap:wrap;gap:8px;}
+.tag-list a{font-size:12px;background:var(--color-bg-soft);border:1px solid var(--color-border);border-radius:20px;padding:6px 12px;color:var(--color-text-soft);}
+.tag-list a:hover{color:var(--color-point);border-color:var(--color-point);}
+.widget-title{font-size:13px;font-weight:700;margin:0 0 10px;color:var(--color-text-soft);}
+
+/* Rating + helpful vote */
+.rank-rating{display:flex;align-items:center;gap:4px;margin-top:4px;}
+.rank-rating .star{font-size:13px;color:#f5b400;}
+.rank-rating .score{font-size:12px;color:var(--color-text-soft);margin-left:2px;}
+.helpful-btn{font-size:12px;border:1px solid var(--color-border);background:var(--color-bg);border-radius:8px;padding:6px 10px;cursor:pointer;color:var(--color-text-soft);}
+.helpful-btn.voted{border-color:var(--color-point);color:var(--color-point);}
+.last-updated{font-size:12px;color:var(--color-text-soft);margin:-6px 0 18px;}
+
 @media (max-width:680px){
   .cat-grid{grid-template-columns:repeat(2,1fr);}
   .rank-card{grid-template-columns:28px 44px 1fr;}
@@ -163,6 +192,16 @@ img{max-width:100%;display:block;}
         </b:widget>
       </b:section>
     </nav>
+    <b:section id='search' maxwidgets='1' showaddelement='no'>
+      <b:widget id='BlogSearch1' locked='false' title='검색' type='BlogSearch' version='2'>
+        <b:includable id='main'>
+          <form class='site-search' expr:action='data:blog.homepageUrl + "search"' method='get'>
+            <input name='q' placeholder='AI 툴 검색' type='search'/>
+            <button aria-label='검색' type='submit'>🔍</button>
+          </form>
+        </b:includable>
+      </b:widget>
+    </b:section>
   </div>
 </header>
 
@@ -191,6 +230,19 @@ img{max-width:100%;display:block;}
 </b:widget>
 </b:section>
 
+<b:section id='popular' maxwidgets='1' showaddelement='no'>
+<b:widget id='HTML5' locked='false' title='이번 달 인기 TOP5' type='HTML' version='2'>
+  <b:includable id='main'>
+    <b:if cond='data:blog.pageType == "index" and data:blog.url == data:blog.homepageUrl'>
+    <div class='wrap popular-section'>
+      <h2><data:title/></h2>
+      <data:content/>
+    </div>
+    </b:if>
+  </b:includable>
+</b:widget>
+</b:section>
+
 <div class='body-layout'>
   <div class='main-col'>
     <b:section id='main' showaddelement='no'>
@@ -205,9 +257,15 @@ img{max-width:100%;display:block;}
         <b:includable id='post' var='post'>
           <article class='post-body'>
             <b:if cond='data:post.isPage'>
+              <b:if cond='data:post.lastUpdated'>
+                <p class='last-updated'>최종 수정일: <data:post.lastUpdated/></p>
+              </b:if>
               <data:post.body/>
             <b:else/>
               <h2><a expr:href='data:post.url'><data:post.title/></a></h2>
+              <b:if cond='data:post.lastUpdated'>
+                <p class='last-updated'>최종 수정일: <data:post.lastUpdated/></p>
+              </b:if>
               <data:post.body/>
             </b:if>
           </article>
@@ -226,6 +284,18 @@ img{max-width:100%;display:block;}
             <ins class='adsbygoogle' data-ad-client='ca-pub-XXXXXXXXXXXXXXXX' data-ad-format='auto' data-ad-slot='0000000000' style='display:block'/>
             <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
           </div>
+        </b:includable>
+      </b:widget>
+      <b:widget id='Label1' locked='false' title='태그로 찾기' type='Label' version='2'>
+        <b:includable id='main'>
+          <b:if cond='data:labels'>
+            <p class='widget-title'><data:title/></p>
+            <div class='tag-list'>
+              <b:loop values='data:labels' var='label'>
+                <a expr:href='label.url'><data:label.name/> (<data:label.count/>)</a>
+              </b:loop>
+            </div>
+          </b:if>
         </b:includable>
       </b:widget>
     </b:section>
@@ -247,6 +317,17 @@ img{max-width:100%;display:block;}
           <p>© <data:blog.title/>. All rights reserved.</p>
         </b:includable>
       </b:widget>
+      <b:widget id='Label2' locked='false' title='태그로 찾기' type='Label' version='2'>
+        <b:includable id='main'>
+          <b:if cond='data:labels'>
+            <div class='tag-list' style='justify-content:center;'>
+              <b:loop values='data:labels' var='label'>
+                <a expr:href='label.url'><data:label.name/> (<data:label.count/>)</a>
+              </b:loop>
+            </div>
+          </b:if>
+        </b:includable>
+      </b:widget>
     </b:section>
   </div>
 </footer>
@@ -257,6 +338,24 @@ img{max-width:100%;display:block;}
 <script>
 //<![CDATA[
 document.addEventListener('click', function(e){
+  var helpfulBtn = e.target.closest('.helpful-btn');
+  if(helpfulBtn){
+    e.stopPropagation();
+    var key = 'helpful_' + helpfulBtn.getAttribute('data-id');
+    var voted = localStorage.getItem(key) === '1';
+    var countEl = helpfulBtn.querySelector('.count');
+    var count = parseInt(countEl.textContent, 10) || 0;
+    if(voted){
+      localStorage.removeItem(key);
+      helpfulBtn.classList.remove('voted');
+      countEl.textContent = Math.max(0, count - 1);
+    } else {
+      localStorage.setItem(key, '1');
+      helpfulBtn.classList.add('voted');
+      countEl.textContent = count + 1;
+    }
+    return;
+  }
   var card = e.target.closest('.rank-card');
   if(card){
     var id = card.getAttribute('data-modal');
@@ -265,12 +364,25 @@ document.addEventListener('click', function(e){
     if(detail && overlay){
       overlay.querySelector('.modal-box').innerHTML = detail.innerHTML + '<button class="modal-close" aria-label="닫기">×</button>';
       overlay.classList.add('open');
+      var newBtn = overlay.querySelector('.helpful-btn');
+      if(newBtn){
+        var k = 'helpful_' + newBtn.getAttribute('data-id');
+        if(localStorage.getItem(k) === '1') newBtn.classList.add('voted');
+      }
     }
   }
   if(e.target.classList.contains('modal-close') || e.target.id === 'rank-modal-overlay'){
     var ov = document.getElementById('rank-modal-overlay');
     if(ov) ov.classList.remove('open');
   }
+});
+document.addEventListener('DOMContentLoaded', function(){
+  document.querySelectorAll('.helpful-btn[data-id]').forEach(function(btn){
+    if(!btn.closest('.rank-detail')){
+      var k = 'helpful_' + btn.getAttribute('data-id');
+      if(localStorage.getItem(k) === '1') btn.classList.add('voted');
+    }
+  });
 });
 //]]>
 </script>
