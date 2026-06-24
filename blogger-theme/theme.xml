@@ -75,8 +75,10 @@ img{max-width:100%;display:block;}
 .site-title{font-size:20px;font-weight:800;letter-spacing:-.02em;}
 .site-title a{color:var(--color-text);}
 .site-title .point{color:var(--color-point);}
-#PageList1{overflow-x:auto;}
-#PageList1 ul{list-style:none;display:flex;gap:18px;margin:0;padding:0;}
+#PageList1{overflow-x:auto;overflow-y:hidden;-ms-overflow-style:none;scrollbar-width:none;}
+#PageList1::-webkit-scrollbar{display:none;height:0;width:0;}
+#PageList1 ul{list-style:none;display:flex;gap:18px;margin:0;padding:0;white-space:nowrap;flex-wrap:nowrap;}
+#PageList1 li{flex-shrink:0;}
 #PageList1 a{font-size:14px;font-weight:600;color:var(--color-text-soft);padding:8px 2px;white-space:nowrap;}
 #PageList1 a:hover{color:var(--color-point);}
 
