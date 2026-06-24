@@ -291,7 +291,7 @@ img{max-width:100%;display:block;}
             <p class='widget-title'><data:title/></p>
             <div class='tag-list'>
               <b:loop values='data:labels' var='label'>
-                <a expr:href='label.url'><data:label.name/> (<data:label.count/>)</a>
+                <a expr:href='data:label.url'><data:label.name/> (<data:label.count/>)</a>
               </b:loop>
             </div>
           </b:if>
@@ -321,7 +321,7 @@ img{max-width:100%;display:block;}
           <b:if cond='data:labels'>
             <div class='tag-list' style='justify-content:center;'>
               <b:loop values='data:labels' var='label'>
-                <a expr:href='label.url'><data:label.name/> (<data:label.count/>)</a>
+                <a expr:href='data:label.url'><data:label.name/> (<data:label.count/>)</a>
               </b:loop>
             </div>
           </b:if>
