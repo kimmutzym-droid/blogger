@@ -181,11 +181,10 @@ img{max-width:100%;display:block;}
       <b:section id='nav' maxwidgets='1' showaddelement='no'>
         <b:widget id='PageList1' locked='false' title='카테고리' type='PageList' version='2'>
           <b:includable id='main'>
-            <b:if cond='data:links any l => l.isCurrentPage'></b:if>
             <ul>
               <li><a expr:href='data:blog.homepageUrl'>홈</a></li>
               <b:loop values='data:links' var='link'>
-                <li><a expr:href='link.href'><data:link.name/></a></li>
+                <li><a expr:href='data:link.href'><data:link.name/></a></li>
               </b:loop>
             </ul>
           </b:includable>
